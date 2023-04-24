@@ -1,0 +1,168 @@
+﻿{
+  "$schema": "https://altinncdn.no/schemas/json/layout/layout.schema.v1.json",
+  "data": {
+    "layout": [
+      {
+        "id": "heading-2d1ba9d7-e284-4acd-a37b-e4c8ce45142a",
+        "type": "Header",
+        "size": "h2",
+        "textResourceBindings": {
+          "title": "Tidsbruk-side-overskrift"
+        },
+        "dataModelBindings": {}
+      },
+      {
+        "id": "para1-2d1ba9d7-e284-4acd-a37b-e4c8ce45142a",
+        "type": "Paragraph",
+        "textResourceBindings": {
+          "title": "Tidsbruk-info"
+        },
+        "dataModelBindings": {}
+      },
+      {
+        "id": "spm1-bb9ae5da-5371-4b98-9792-0703b015be8c",
+        "type": "RadioButtons",
+        "textResourceBindings": {
+          "title": "Tidbruk-spm1"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "Tidsbruk.samletInfo"
+        },
+        "required": false,
+        "optionsId": "jaNeiOptionlist",
+        "labelSettings": {
+          "optionalIndicator": false
+        },
+        "layout": "row"
+      },
+        
+      {
+        "id": "Gruppe1-18440a9b-1af4-4258-957f-4551bccbb3bb",
+        "type": "Group",
+        "hidden": ["notEquals",["dataModel","Tidsbruk.samletInfo"],"1"],
+        "children": [          
+          "spm2-bb31c0d5-2585-498e-b5d8-9c05cf33ec76",
+          "spm3-29d3286c-cc86-4fd4-a682-fc58d1020a43",
+          "spm4-ed40a421-a240-4455-877a-ff777fdcddd8"
+        ],
+        "maxCount": 0,
+        "dataModelBindings": {}
+      },
+      {
+        "id": "spm2-bb31c0d5-2585-498e-b5d8-9c05cf33ec76",
+        "type": "Input",
+        
+        "textResourceBindings": {
+          "title": "Tidsbruk-spm2",
+          "description": "Tidsbruk-spm2-info"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "Tidsbruk.samletInfoMin"
+        },
+        "grid": {
+          "xd": 12,
+          "innerGrid": {
+            "md": 2
+          }
+        },
+        "formatting": {
+          "number": {
+            "suffix": " minutter"
+          }
+        },
+        "required": false,
+        "readOnly": false,
+        "labelSettings": {
+          "optionalIndicator": false
+        }
+      },
+      {
+        "id": "spm3-29d3286c-cc86-4fd4-a682-fc58d1020a43",
+        "type": "RadioButtons",
+        "textResourceBindings": {
+          "title": "Tidsbruk-spm3"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "Tidsbruk.hjelpAvAndre"
+        },
+        "optionsId": "jaNeiOptionlist",
+        "required": false,
+        "labelSettings": {
+          "optionalIndicator": false
+        },
+        "layout": "row"
+        
+      },
+      {
+        "id": "spm4-ed40a421-a240-4455-877a-ff777fdcddd8",
+        "type": "Input",
+        "hidden": ["notEquals",["dataModel","Tidsbruk.hjelpAvAndre"],"1"],
+        "textResourceBindings": {
+          "title": "Tidsbruk-spm4",
+          "description": "Tidsbruk-spm4-info"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "Tidsbruk.hjelpAvAndreMin"
+        },
+        "grid": {
+          "xs": 12,
+          "innerGrid": {
+            "md": 2
+          }
+        },
+        "formatting": {
+          "number": {
+            "suffix": " minutter"
+          }
+        },
+        "required": false,
+        "readOnly": false,
+        "labelSettings": {
+          "optionalIndicator": false
+        }
+      },
+ 
+ 
+      {
+        "id": "spm5-bb31c0d5-2585-498e-b5d8-9c05cf33ec76",
+        "type": "Input",
+        "textResourceBindings": {
+          "title": "Tidsbruk-spm5",
+          "description": "Tidsbruk-spm5-info"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "Tidsbruk.utfyllingMin"
+        },
+        "grid": {
+          "xs": 12,
+          "innerGrid": {
+            "md": 2
+          }
+        },
+        "formatting": {
+          "number": {
+            "suffix": " minutter"
+          }
+        },
+        "required": false,
+        "readOnly": false,
+        "labelSettings": {
+          "optionalIndicator": false
+        }
+      },
+      
+      {
+        "id": "knapp1-b94e963e-f120-4805-b5a3-d5d077edc38b",
+        "type": "NavigationButtons",
+        "componentType": "NavigationButtons",
+        "textResourceBindings": {
+          "next": "lang.tittel.navigationneste",
+          "back": "lang.tittel.navigationtilbake"
+        },
+        "dataModelBindings": {},
+        "showBackButton": true,
+        "triggers": ["validatePage"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+    "$schema": "https://altinncdn.no/schemas/json/layout/layout.schema.v1.json",
+    "data": {
+      "layout": [
+
+        {
+            "id": "summary-sidetittel",
+            "type": "Header",
+            "textResourceBindings": {
+                "title": "lang.summary.sidetittel"  
+            },
+            "size": "L"
+        },
+        {
+            "id": "summary-infotekst",
+            "type": "Paragraph",
+            "textResourceBindings": {
+                "title": "lang.summary.infotekst"  
+            }
+        },
+        {
+            "id": "Oppsummering-side2",
+            "type": "Group",
+            "textResourceBindings": {
+                "title": "s2InvestMaskiner.Header-mER5uS.title"
+            },
+            "children": [
+              "Oppsummering-s2-1",
+              "Oppsummering-s2-2",
+              "Oppsummering-s2-3",
+              "Oppsummering-s2-4"
+            ]
+        },
+        {
+            "id": "Oppsummering-s2-1",
+            "type": "Summary",
+            "componentRef": "RadioButtons-6MlDC2",
+            "pageRef": "s2InvestMaskiner"
+        },
+        {
+            "id": "Oppsummering-s2-2",
+            "type": "Summary",
+            "componentRef": "Input-yqMZtC",
+            "pageRef": "s2InvestMaskiner"
+        },
+        {
+            "id": "Oppsummering-s2-3",
+            "type": "Summary",
+            "componentRef": "RadioButtons-H4Iw5L",
+            "pageRef": "s2InvestMaskiner"
+        },
+        {
+            "id": "Oppsummering-s2-4",
+            "type": "Summary",
+            "componentRef": "Input-TNeaJs",
+            "pageRef": "s2InvestMaskiner"
+        },
+        {
+            "id": "Oppsummering-side2-1",
+            "type": "Group",
+            "textResourceBindings": {
+                "title": "s2InvestMaskiner.Header-mER5uSlknsfd.title"
+            },
+            "children": [
+              "Oppsummering-s2-5",
+              "Oppsummering-s2-6"
+            ]
+        },
+        {
+            "id": "Oppsummering-s2-5",
+            "type": "Summary",
+            "componentRef": "RadioButtons-q2DMya",
+            "pageRef": "s2InvestMaskiner"
+        },
+        {
+            "id": "Oppsummering-s2-6",
+            "type": "Summary",
+            "componentRef": "Input-2Ib5n6",
+            "pageRef": "s2InvestMaskiner"
+        },
+        {
+            "id": "Oppsummering-side3",
+            "type": "Group",
+            "textResourceBindings": {
+                "title": "s3InvestBiler.Header-ZXEbTJ.title"
+            },
+            "children": [
+              "Oppsummering-s3-1",
+              "Oppsummering-s3-2",
+              "Oppsummering-s3-3",
+              "Oppsummering-s3-4"
+            ]
+        },
+        {
+            "id": "Oppsummering-s3-1",
+            "type": "Summary",
+            "componentRef": "RadioButtons-szDZyO",
+            "pageRef": "s3InvestBiler"
+        },
+        {
+            "id": "Oppsummering-s3-2",
+            "type": "Summary",
+            "componentRef": "Input-9uXC40",
+            "pageRef": "s3InvestBiler"
+        },
+        {
+            "id": "Oppsummering-s3-3",
+            "type": "Summary",
+            "componentRef": "RadioButtons-9r4Qhm",
+            "pageRef": "s3InvestBiler"
+        },
+        {
+            "id": "Oppsummering-s3-4",
+            "type": "Summary",
+            "componentRef": "Input-0WQtZa",
+            "pageRef": "s3InvestBiler"
+        },
+        {
+            "id": "Oppsummering-side3-1",
+            "type": "Group",
+            "textResourceBindings": {
+                "title": "s3InvestBiler.Header-ZiF6D5.title"
+            },
+            "children": [
+              "Oppsummering-s3-5",
+              "Oppsummering-s3-6"
+            ]
+        },
+        {
+            "id": "Oppsummering-s3-5",
+            "type": "Summary",
+            "componentRef": "RadioButtons-lcxSK6",
+            "pageRef": "s3InvestBiler"
+        },
+        {
+            "id": "Oppsummering-s3-6",
+            "type": "Summary",
+            "componentRef": "Input-CxuabJ",
+            "pageRef": "s3InvestBiler"
+        },
+        {
+            "id": "Oppsummering-side4",
+            "type": "Group",
+            "textResourceBindings": {
+                "title": "s4InvestBygg.Header-0D3agO.title"
+            },
+            "children": [
+              "Oppsummering-s4-1",
+              "Oppsummering-s4-2",
+              "Oppsummering-s4-3",
+              "Oppsummering-s4-4"
+            ]
+        },
+        {
+            "id": "Oppsummering-s4-1",
+            "type": "Summary",
+            "componentRef": "RadioButtons-cINH5x",
+            "pageRef": "s4InvestBygg"
+        },
+        {
+            "id": "Oppsummering-s4-2",
+            "type": "Summary",
+            "componentRef": "Input-BXy4X8",
+            "pageRef": "s4InvestBygg"
+        },
+        {
+            "id": "Oppsummering-s4-3",
+            "type": "Summary",
+            "componentRef": "RadioButtons-4pNyhI",
+            "pageRef": "s4InvestBygg"
+        },
+        {
+            "id": "Oppsummering-s4-4",
+            "type": "Summary",
+            "componentRef": "Input-UE58UQ",
+            "pageRef": "s4InvestBygg"
+        },
+        {
+            "id": "Oppsummering-side4-1",
+            "type": "Group",
+            "textResourceBindings": {
+                "title": "s4InvestBygg.Header-StJKap.title"
+            },
+            "children": [
+              "Oppsummering-s4-5",
+              "Oppsummering-s4-6"
+            ]
+        },
+        {
+            "id": "Oppsummering-s4-5",
+            "type": "Summary",
+            "componentRef": "RadioButtons-K4PrK2",
+            "pageRef": "s4InvestBygg"
+        },
+        {
+            "id": "Oppsummering-s4-6",
+            "type": "Summary",
+            "componentRef": "Input-Fk2I7Y",
+            "pageRef": "s4InvestBygg"
+        },
+        {
+            "id": "summary-dd7a6809-50f9-4844-a560-0a31755cbed4",
+            "type": "NavigationButtons",
+            "textResourceBindings": {
+              "next": "lang.tittel.navigationneste",
+              "back": "lang.tittel.navigationtilbake"
+            },
+            "dataModelBindings": {},
+            "showBackButton": true
+            
+          }
+
+    ]   
+    }
+}       

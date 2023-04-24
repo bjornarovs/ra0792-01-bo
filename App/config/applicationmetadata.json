@@ -1,0 +1,49 @@
+﻿{
+  "id": "ssb/ra0792-01",
+  "org": "ssb",
+  "title": {
+    "nb": "Fellesrapportering kvartalsvise investeringer (RA-0792)"
+  },
+  "dataTypes": [
+    {
+      "id": "ref-data-as-pdf",
+      "allowedContentTypes": [
+        "application/pdf"
+      ],
+      "maxCount": 0,
+      "minCount": 0,
+      "enablePdfCreation": true,
+      "enableFileScan": false,
+      "validationErrorOnPendingFileScan": false
+    },
+    {
+      "id": "A3_RA-0792_M",
+      "allowedContentTypes": [
+        "application/xml"
+      ],
+      "appLogic": {
+        "autoCreate": false,
+        "classRef": "Altinn.App.Models.A3_RA0792_M",
+        "allowAnonymousOnStateless": false,
+        "autoDeleteOnProcessEnd": false
+      },
+      "taskId": "Task_1",
+      "maxCount": 1,
+      "minCount": 1,
+      "enablePdfCreation": true,
+      "enableFileScan": false,
+      "validationErrorOnPendingFileScan": false
+    }
+  ],
+  "partyTypesAllowed": {
+    "bankruptcyEstate": true,
+    "organisation": true,
+    "person": false,
+    "subUnit": true
+  },
+  "autoDeleteOnProcessEnd": false,
+  "created": "2023-03-21T11:59:02.7359836Z",
+  "createdBy": "stian.vestli",
+  "lastChanged": "2023-03-21T11:59:02.7359848Z",
+  "lastChangedBy": "stian.vestli"
+}

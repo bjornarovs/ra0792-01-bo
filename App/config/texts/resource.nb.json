@@ -1,0 +1,535 @@
+﻿{
+  "language": "nb",
+  "resources": [
+    {
+      "id": "appName",
+      "value": "Fellesrapportering kvartalsvise investeringer (RA-0792)"
+    },
+    {
+      "id": "receipt.title",
+      "value": "RA-0792 er nå sendt inn"
+    },
+    {
+      "id": "language.selector.label",
+      "value": "Språk"
+    },
+    {
+      "id": "language.full_name.nb",
+      "value": "Norsk bokmål"
+    },
+    {
+      "id": "language.full_name.nn",
+      "value": "Nynorsk"
+    },
+    {
+      "id": "lang.s1.tittel.virksomhetsinfo",
+      "value": "Dere skal gi opplysninger om:"
+    },
+    {
+      "id": "lang.s1.info.virksomhetsinfo",
+      "value": "<b>Navn:</b> {0} <br><b>Avdeling:</b> {1} <br><b>Organisasjonsnummer:</b> {2} <br><b>Beliggenhet:</b> {3}, {4} {5}",
+      "variables": [
+        {
+          "key": "InternInfo.enhetsNavn",
+          "dataSource": "dataModel.A3_RA0792_M"
+        },
+        {
+          "key": "InternInfo.enhetsAvdeling",
+          "dataSource": "dataModel.A3_RA0792_M"
+        },
+        {
+          "key": "InternInfo.enhetsOrgNr",
+          "dataSource": "dataModel.A3_RA0792_M"
+        },
+        {
+          "key": "InternInfo.enhetsGateadresse",
+          "dataSource": "dataModel.A3_RA0792_M"
+        },
+        {
+          "key": "InternInfo.enhetsPostnr",
+          "dataSource": "dataModel.A3_RA0792_M"
+        },
+        {
+          "key": "InternInfo.enhetsPoststed",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "lang.s1.info.virksomhetsinfoutenavdeling",
+      "value": "<b>Navn:</b> {0} <br><b>Organisasjonsnummer:</b> {1} <br><b>Beliggenhet:</b> {2}, {3} {4}",
+      "variables": [
+        {
+          "key": "InternInfo.enhetsNavn",
+          "dataSource": "dataModel.A3_RA0792_M"
+        },
+        {
+          "key": "InternInfo.enhetsOrgNr",
+          "dataSource": "dataModel.A3_RA0792_M"
+        },
+        {
+          "key": "InternInfo.enhetsGateadresse",
+          "dataSource": "dataModel.A3_RA0792_M"
+        },
+        {
+          "key": "InternInfo.enhetsPostnr",
+          "dataSource": "dataModel.A3_RA0792_M"
+        },
+        {
+          "key": "InternInfo.enhetsPoststed",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "lang.s1.tittel.periodeinfo",
+      "value": "Dere skal rapportere for perioden {0}",
+      "variables": [
+        {
+          "key": "InternInfo.periodeFritekst",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "lang.kontaktogkommentar.tittel.kontaktbekreft",
+      "value": "Bekreft at kontaktopplysningene ovenfor er riktige."
+    },
+    {
+      "id": "lang.kontaktogkommentar.beskrivelse.kontaktbekreft",
+      "value": "Jeg bekrefter at kontaktopplysningene ovenfor er riktige."
+    },
+    {
+      "id": "lang.kontaktogkommentar.tittel.kontaktkommentar",
+      "value": "Har du kommentarer til de opplysningene du har gitt, kan du skrive dem her:"
+    },
+    {
+      "id": "lang.kontaktogkommentar.tittel.kontaktepost",
+      "value": "E-postadresse:"
+    },
+    {
+      "id": "lang.kontaktogkommentar.tittel.kontaktinfo",
+      "value": "**<br>Opplysningene nedenfor er den informasjonen SSB har om kontaktpersonen for dette skjemaet.<br> Dersom opplysningene er feil eller mangelfulle, ber vi om at du oppdaterer i feltene nedenfor:**"
+    },
+    {
+      "id": "lang.kontaktogkommentar.tittel.kontaktnavn",
+      "value": "Navn:"
+    },
+    {
+      "id": "lang.kontaktogkommentar.tittel.kontakttelefon",
+      "value": "Telefonnummer:"
+    },
+    {
+      "id": "lang.kontaktogkommentar.tittel.kontaktserviceName",
+      "value": "Kontakt og kommentar"
+    },
+    {
+      "id": "lang.kontaktogkommentar.tittel.kontakttittel",
+      "value": "## Kommentarer og kontaktopplysninger"
+    },
+    {
+      "id": "lang.kontaktogkommentar.error.kontaktbekreftelse",
+      "value": "Du må bekrefte kontaktopplysningene før skjemaet kan sendes inn"
+    },
+    {
+      "id": "lang.tittel.navigationneste",
+      "value": "Neste"
+    },
+    {
+      "id": "lang.tittel.navigationtilbake",
+      "value": "Tilbake"
+    },
+    {
+      "id": "lang.tittel.sendinn",
+      "value": "Send inn"
+    },
+    {
+      "id": "lang.option.ja",
+      "value": "Ja"
+    },
+    {
+      "id": "lang.option.nei",
+      "value": "Nei"
+    },
+    {
+      "id": "Tidsbruk-side-overskrift",
+      "value": "Tidsbruk"
+    },
+    {
+      "id": "Tidsbruk-info",
+      "value": "### Nå følger noen spørsmål om hvor mye tid som ble brukt for å finne fram nødvendig informasjon og fylle ut dette skjemaet"
+    },
+    {
+      "id": "Tidbruk-spm1",
+      "value": "Var det nødvendig å samle informasjon fra andre kilder før spørsmålene i skjemaet kunne besvares?"
+    },
+    {
+      "id": "Tidsbruk-spm2",
+      "value": "Omtrent hvor lang tid brukte du på å samle inn nødvendig informasjon før spørsmålene i skjemaet kunne besvares?"
+    },
+    {
+      "id": "Tidsbruk-spm2-info",
+      "value": "Oppgi tiden du brukte på å finne frem informasjon i minutter."
+    },
+    {
+      "id": "Tidsbruk-spm3",
+      "value": "Fikk du hjelp av andre personer til dette?"
+    },
+    {
+      "id": "Tidsbruk-spm4",
+      "value": "Hvor mye tid tror du denne/disse personen(e) brukte på å hjelpe deg?"
+    },
+    {
+      "id": "Tidsbruk-spm4-info",
+      "value": "Oppgi tiden denne/disse personen(e) brukte i minutter."
+    },
+    {
+      "id": "Tidsbruk-spm5",
+      "value": "Omtrent hvor lang tid gikk med til selve skjemautfyllingen?"
+    },
+    {
+      "id": "Tidsbruk-spm5-info",
+      "value": "Tid du brukte før skjemaet kunne fylles ut, skal ikke regnes med.</br>Oppgi tiden i minutter."
+    },
+    {
+      "id": "Brukeropp-side-overskrift",
+      "value": "Brukeropplevelse"
+    },
+    {
+      "id": "Brukeropp-info",
+      "value": "### Vi ønsker også din vurdering av spørsmålene i skjemaet og skjemaløsningen i Altinn."
+    },
+    {
+      "id": "Bruker-spm1",
+      "value": "Synes du skjemaarbeidet var enkelt eller krevende å gjennomføre?"
+    },
+    {
+      "id": "Gjennomforing-Lettvint",
+      "value": "Enkelt"
+    },
+    {
+      "id": "Gjennomforing-LettvintTungvint",
+      "value": "Både enkelt og krevende"
+    },
+    {
+      "id": "Gjennomforing-Tungvint",
+      "value": "Krevende"
+    },
+    {
+      "id": "Bruker-spm2",
+      "value": "Hvilke forhold bidro til å gjøre skjemaarbeidet krevende?"
+    },
+    {
+      "id": "Bruker-spm2-info",
+      "value": "Du kan velge flere alternativ"
+    },
+    {
+      "id": "Bruker-spm2-alt1",
+      "value": "Mange spørsmål"
+    },
+    {
+      "id": "Bruker-spm2-alt2",
+      "value": "Uryddig oppsett som gjorde skjema tungt å lese"
+    },
+    {
+      "id": "Bruker-spm2-alt3",
+      "value": "Vanskeligheter med å finne ut hvordan webskjemaet fungerte"
+    },
+    {
+      "id": "Bruker-spm2-alt4",
+      "value": "Funksjoner i webskjemaet fungerte ikke som de skulle"
+    },
+    {
+      "id": "Bruker-spm2-alt5",
+      "value": "Uklare begreper og begrepsforklaringer"
+    },
+    {
+      "id": "Bruker-spm2-alt6",
+      "value": "Måtte vente på informasjon som forelå på forskjellige tidspunkt"
+    },
+    {
+      "id": "Bruker-spm2-alt7",
+      "value": "Vanskelige eller tidkrevende beregninger i tilknytning til spørsmål"
+    },
+    {
+      "id": "Bruker-spm2-alt8",
+      "value": "Vanskeligheter med å avgjøre hvilket svaralternativ eller svar som var det rette"
+    },
+    {
+      "id": "Bruker-spm2-alt9",
+      "value": "Hva det ble spurt om passet ikke i forhold til informasjonen foretaket eller virksomheten har"
+    },
+    {
+      "id": "Bruker-spm2-alt10",
+      "value": "Måtte ha hjelp for å finne fram nødvendig informasjon"
+    },
+    {
+      "id": "Bruker-spm2-alt11",
+      "value": "Andre årsaker"
+    },
+    {
+      "id": "Bruker-spm3",
+      "value": "Bruk svarfeltet nedenfor til å forklare nærmere hva som gjorde skjemaarbeidet krevende:"
+    },
+    {
+      "id": "lang.summary.sidetittel",
+      "value": "Sjekk at svarene dine er riktige"
+    },
+    {
+      "id": "lang.summary.infotekst",
+      "value": "Se over svarene dine før du sender inn skjemaet. Om du ser at noen av svarene er feil, kan du trykke «Endre» og gå til skjemasiden for å redigere. Du må gjøre endringer i skjemaet dersom du får feilmeldinger."
+    },
+    {
+      "id": "s2InvestMaskiner.Panel-kLpILB.body",
+      "value": "Dere skal rapportere investeringstall totalt for alle virksomheter, dvs. butikker/utsalgssteder, som det er avklart med SSB at dere kan gi tall for. Det skal kun føres opp investeringer i Norge.<br>\nTa med: \n- Investeringstilskudd fra det offentlige\n- Leasingfinansierte investeringer\n- Fraktkostnader og montasje\n\nTa ikke med:\n- Investeringer i utlandet\n- Investeringer i brukt materiell\n- Overdragelser ved oppkjøp eller fusjon\n- Operasjonell leasing (leieforhold)\n - Negative verdier ved salg av varige driftsmidler\n\rDere skal oppgi alle beløp i hele tusen kroner. Eksempel: 915 698 skrives 916."
+    },
+    {
+      "id": "s2InvestMaskiner.Panel-kLpILB.title",
+      "value": "Veiledning"
+    },
+    {
+      "id": "s2InvestMaskiner.RadioButtons-6MlDC2.title",
+      "value": "Investerte dere i nye maskiner eller nytt inventar i perioden {0}?",
+      "variables": [
+        {
+          "key": "InternInfo.periodeFritekst",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "s2InvestMaskiner.Input-yqMZtC.title",
+      "value": "Hvor store var investeringene i nye maskiner eller nytt inventar i perioden {0}?",
+      "variables": [
+        {
+          "key": "InternInfo.periodeFritekst",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "s2InvestMaskiner.RadioButtons-H4Iw5L.title",
+      "value": "Ble deler av merverdiavgiften refundert ved investeringen i nye maskiner eller nytt inventar i perioden {0}?",
+      "variables": [
+        {
+          "key": "InternInfo.periodeFritekst",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "s2InvestMaskiner.Input-TNeaJs.title",
+      "value": "Hvor mye av merverdiavgiften ble refundert ved investeringen i nye maskiner eller nytt inventar i perioden {0}?",
+      "variables": [
+        {
+          "key": "InternInfo.periodeFritekst",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "s2InvestMaskiner.RadioButtons-q2DMya.title",
+      "value": "Planlegger dere å investere i nye maskiner eller nytt inventar i perioden {0}?",
+      "variables": [
+        {
+          "key": "Hjelpefelter.hjelpefelt1",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "s2InvestMaskiner.Input-2Ib5n6.title",
+      "value": "Hvor store er de planlagte investeringene i nye maskiner eller nytt inventar i perioden {0}?",
+      "variables": [
+        {
+          "key": "Hjelpefelter.hjelpefelt1",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "s2InvestMaskiner.Header-mER5uS.title",
+      "value": "Kvartalsvise investeringer i maskiner og inventar "
+    },
+    {
+      "id": "s2InvestMaskiner.Input-yqMZtC.description",
+      "value": " Oppgi beløpet i hele 1 000 kroner, inkl mva."
+    },
+    {
+      "id": "s2InvestMaskiner.Input-TNeaJs.description",
+      "value": "Oppgi beløpet i hele 1 000 kroner."
+    },
+    {
+      "id": "s2InvestMaskiner.Input-2Ib5n6.description",
+      "value": "Oppgi beløpet i hele 1 000 kroner, inkl mva."
+    },
+    {
+      "id": "s2InvestMaskiner.Header-mER5uSlknsfd.title",
+      "value": "Planlagte investeringer i maskiner og inventar"
+    },
+    {
+      "id": "s3InvestBiler.Header-ZXEbTJ.title",
+      "value": "Kvartalsvise investeringer i biler og andre transportmidler"
+    },
+    {
+      "id": "s3InvestBiler.RadioButtons-szDZyO.title",
+      "value": "Investerte dere i nye biler eller andre transportmidler i perioden {0}?",
+      "variables": [
+        {
+          "key": "InternInfo.periodeFritekst",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "s3InvestBiler.Input-9uXC40.title",
+      "value": "Hvor store var investeringene i nye biler eller andre transportmidler i perioden {0}?",
+      "variables": [
+        {
+          "key": "InternInfo.periodeFritekst",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "s3InvestBiler.Input-9uXC40.description",
+      "value": "Oppgi beløpet i hele 1 000 kroner, inkl mva."
+    },
+    {
+      "id": "s3InvestBiler.RadioButtons-9r4Qhm.title",
+      "value": "Ble deler av merverdiavgiften refundert ved investeringen i nye biler eller andre transportmidler i perioden {0}?",
+      "variables": [
+        {
+          "key": "InternInfo.periodeFritekst",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "s3InvestBiler.Input-0WQtZa.title",
+      "value": "Hvor mye av merverdiavgiften ble refundert ved investeringen i nye biler eller andre transportmidler i perioden {0}?",
+      "variables": [
+        {
+          "key": "InternInfo.periodeFritekst",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "s3InvestBiler.Input-0WQtZa.description",
+      "value": "Oppgi beløpet i hele 1 000 kroner."
+    },
+    {
+      "id": "s3InvestBiler.Header-ZiF6D5.title",
+      "value": "Planlagte investeringer i biler og andre transportmidler"
+    },
+    {
+      "id": "s3InvestBiler.RadioButtons-lcxSK6.title",
+      "value": "Planlegger dere å investere i nye biler eller andre transportmidler i perioden {0}?",
+      "variables": [
+        {
+          "key": "Hjelpefelter.hjelpefelt1",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "s3InvestBiler.Input-CxuabJ.title",
+      "value": "Hvor store er de planlagte investeringene i nye biler eller andre transportmidler i perioden {0}?",
+      "variables": [
+        {
+          "key": "Hjelpefelter.hjelpefelt1",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "s3InvestBiler.Input-CxuabJ.description",
+      "value": "Oppgi beløpet i hele 1 000 kroner, inkl mva."
+    },
+    {
+      "id": "s4InvestBygg.Header-0D3agO.title",
+      "value": "Kvartalsvise investeringer i nybygg eller rehabilitering"
+    },
+    {
+      "id": "s4InvestBygg.RadioButtons-cINH5x.title",
+      "value": "Investerte dere i nybygg eller rehabilitering i perioden {0}?",
+      "variables": [
+        {
+          "key": "InternInfo.periodeFritekst",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "s4InvestBygg.RadioButtons-cINH5x.description",
+      "value": "Omfatter nybygg og total rehabilitering av butikk-, lager- og kontorbygg, veier, parkeringsplasser og velferdsanlegg. Kun kostnader som er påløpt i kvartalet skal tas med."
+    },
+    {
+      "id": "s4InvestBygg.Input-BXy4X8.title",
+      "value": "Hvor store var investeringene i nybygg eller rehabilitering i perioden {0}?",
+      "variables": [
+        {
+          "key": "InternInfo.periodeFritekst",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "s4InvestBygg.Input-BXy4X8.description",
+      "value": "Oppgi beløpet i hele 1 000 kroner, inkl mva."
+    },
+    {
+      "id": "s4InvestBygg.RadioButtons-4pNyhI.title",
+      "value": "Ble deler av merverdiavgiften refundert ved investeringen i nybygg eller rehabilitering i perioden {0}?",
+      "variables": [
+        {
+          "key": "InternInfo.periodeFritekst",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "s4InvestBygg.Input-UE58UQ.title",
+      "value": "Hvor mye av merverdiavgiften ble refundert ved investeringen i nybygg eller rehabilitering i perioden {0}?",
+      "variables": [
+        {
+          "key": "InternInfo.periodeFritekst",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "s4InvestBygg.Input-UE58UQ.description",
+      "value": "Oppgi beløpet i hele 1 000 kroner."
+    },
+    {
+      "id": "s4InvestBygg.Header-StJKap.title",
+      "value": "Planlagte investeringer i nybygg eller rehabilitering"
+    },
+    {
+      "id": "s4InvestBygg.RadioButtons-K4PrK2.title",
+      "value": "Planlegger dere å investere i nybygg eller rehabilitering i perioden {0}?",
+      "variables": [
+        {
+          "key": "Hjelpefelter.hjelpefelt1",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "s4InvestBygg.Input-Fk2I7Y.title",
+      "value": "Hvor store er de planlagte investeringene i nybygg og rehabilitering i perioden {0}?",
+      "variables": [
+        {
+          "key": "Hjelpefelter.hjelpefelt1",
+          "dataSource": "dataModel.A3_RA0792_M"
+        }
+      ]
+    },
+    {
+      "id": "s4InvestBygg.Input-Fk2I7Y.description",
+      "value": "Oppgi beløpet i hele 1 000 kroner, inkl mva."
+    }
+  ]
+}

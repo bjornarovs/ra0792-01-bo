@@ -1,0 +1,162 @@
+﻿{
+  "$schema": "https://altinncdn.no/schemas/json/layout/layout.schema.v1.json",
+  "data": {
+    "layout": [
+      {
+        "id": "Panel-kLpILB",
+        "type": "Panel",
+        "textResourceBindings": {
+          "body": "s2InvestMaskiner.Panel-kLpILB.body",
+          "title": "s2InvestMaskiner.Panel-kLpILB.title"
+        },
+        "dataModelBindings": {},
+        "grid": {
+          "xs": 12
+        }
+      },
+      {
+        "id": "Header-mER5uS",
+        "type": "Header",
+        "textResourceBindings": {
+          "title": "s2InvestMaskiner.Header-mER5uS.title"
+        },
+        "dataModelBindings": {},
+        "size": "L"
+      },
+      {
+        "id": "RadioButtons-6MlDC2",
+        "type": "RadioButtons",
+        "textResourceBindings": {
+          "title": "s2InvestMaskiner.RadioButtons-6MlDC2.title"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "SkjemaData.investMaskinerJaNei"
+        },
+        "required": true,
+        "optionsId": "jaNeiOptionlist",
+        "grid": {
+          "md": 10
+        }
+      },
+      {
+        "id": "Input-yqMZtC",
+        "type": "Input",
+        "textResourceBindings": {
+          "title": "s2InvestMaskiner.Input-yqMZtC.title",
+          "description": "s2InvestMaskiner.Input-yqMZtC.description"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "SkjemaData.investMaskinerSum"
+        },
+        "required": true,
+        "readOnly": false,
+        "formatting": {"number": {"allowNegative": false,"suffix": " 000 kr","thousandSeparator": " "}},
+        "grid": {
+          "md": 10,
+          "innerGrid": {
+            "md": 3
+          }
+        },
+        "hidden": ["notEquals",["component","RadioButtons-6MlDC2"],"1"]
+      },
+      {
+        "id": "RadioButtons-H4Iw5L",
+        "type": "RadioButtons",
+        "textResourceBindings": {
+          "title": "s2InvestMaskiner.RadioButtons-H4Iw5L.title"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "SkjemaData.merverdiMaskinerRefJaNei"
+        },
+        "required": true,
+        "optionsId": "jaNeiOptionlist",
+        "hidden": ["notEquals",["component","RadioButtons-6MlDC2"],"1"],
+        "grid": {
+          "md": 10
+        }
+      },
+      {
+        "id": "Input-TNeaJs",
+        "type": "Input",
+        "textResourceBindings": {
+          "title": "s2InvestMaskiner.Input-TNeaJs.title",
+          "description": "s2InvestMaskiner.Input-TNeaJs.description"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "SkjemaData.merverdiMaskinerRefSum"
+        },
+        "required": true,
+        "readOnly": false,
+        "formatting": {"number": {"allowNegative": false,"suffix": " 000 kr","thousandSeparator": " "}},
+        "grid": {
+          "md": 10,
+          "innerGrid": {
+            "md": 3
+          }
+        },
+        "hidden": ["or",
+                    ["notEquals",["component","RadioButtons-6MlDC2"],"1"],
+                    ["notEquals",["component","RadioButtons-H4Iw5L"],"1"]
+        ]
+      },
+      {
+        "id": "Header-mER5uSlknsfd",
+        "type": "Header",
+        "textResourceBindings": {
+          "title":"s2InvestMaskiner.Header-mER5uSlknsfd.title" 
+        },
+        "dataModelBindings": {},
+        "size": "L"
+      },
+      {
+        "id": "RadioButtons-q2DMya",
+        "type": "RadioButtons",
+        "textResourceBindings": {
+          "title": "s2InvestMaskiner.RadioButtons-q2DMya.title"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "SkjemaData.planInvestMaskinerJaNei"
+        },
+        "required": true,
+        "optionsId": "jaNeiOptionlist",
+        "grid": {
+          "md": 10
+        }
+      },
+      {
+        "id": "Input-2Ib5n6",
+        "type": "Input",
+        "textResourceBindings": {
+          "title": "s2InvestMaskiner.Input-2Ib5n6.title",
+          "description": "s2InvestMaskiner.Input-2Ib5n6.description"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "SkjemaData.planInvestMaskinerSum"
+        },
+        "required": true,
+        "readOnly": false,
+        "formatting": {"number": {"allowNegative": false,"suffix": " 000 kr","thousandSeparator": " "}},
+        "grid": {
+          "md": 10,
+          "innerGrid": {
+            "md": 3
+          }
+        },
+        "hidden": ["notEquals",["component","RadioButtons-q2DMya"],"1"]
+      },
+      {
+        "id": "NavigationButtons-bSUf87",
+        "type": "NavigationButtons",
+        "componentType": "NavigationButtons",
+        "textResourceBindings": {
+          "next": "lang.tittel.navigationneste",
+          "back": "lang.tittel.navigationtilbake"
+        },
+        "dataModelBindings": {},
+        "showBackButton": true,
+        "triggers": ["validatePage"]
+      }
+    ],
+    "hidden": false
+  }
+}

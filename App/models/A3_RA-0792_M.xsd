@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:seres="http://seres.no/xsd/forvaltningsdata" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation>
+      <xsd:attribute name="rootNode" fixed="" />
+    </xs:documentation>
+  </xs:annotation>
+  <xs:complexType name="InternInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="raNummer" type="xs:string" />
+      <xs:element minOccurs="0" name="skjemaVersjon" type="xs:string" />
+      <xs:element minOccurs="0" name="endepunktUrl" type="xs:string" />
+      <xs:element minOccurs="0" name="undersoekelsesNr" type="xs:string" />
+      <xs:element minOccurs="0" name="undersoekelsesInfoUrl" type="xs:string" />
+      <xs:element minOccurs="0" name="visOppgaveByrde" type="xs:string" />
+      <xs:element minOccurs="0" name="visBrukeropplevelse" type="xs:string" />
+      <xs:element minOccurs="0" name="delregNr" type="xs:string" />
+      <xs:element minOccurs="0" name="periodeFritekst" type="xs:string" />
+      <xs:element minOccurs="0" name="periodeFomDato" type="xs:string" />
+      <xs:element minOccurs="0" name="periodeTomDato" type="xs:string" />
+      <xs:element minOccurs="0" name="periodeType" type="xs:string" />
+      <xs:element minOccurs="0" name="periodeNummer" type="xs:string" />
+      <xs:element minOccurs="0" name="periodeAAr" type="xs:string" />
+      <xs:element minOccurs="0" name="periodeDato" type="xs:string" />
+      <xs:element minOccurs="0" name="enhetsIdent" type="xs:string" />
+      <xs:element minOccurs="0" name="enhetsType" type="xs:string" />
+      <xs:element minOccurs="0" name="enhetsOrgNr" type="xs:string" />
+      <xs:element minOccurs="0" name="enhetsNavn" type="xs:string" />
+      <xs:element minOccurs="0" name="enhetsGateadresse" type="xs:string" />
+      <xs:element minOccurs="0" name="enhetsPostnr" type="xs:string" />
+      <xs:element minOccurs="0" name="enhetsPoststed" type="xs:string" />
+      <xs:element minOccurs="0" name="enhetsAvdeling" type="xs:string" />
+      <xs:element minOccurs="0" name="reporteeOrgNr" type="xs:string" />
+      <xs:element minOccurs="0" name="parentId" type="xs:string" />
+      <xs:element minOccurs="0" name="childId" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Tidsbruk">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="hjelpAvAndre" type="xs:string" />
+      <xs:element minOccurs="0" name="samletInfo" type="xs:string" />
+      <xs:element minOccurs="0" name="hjelpAvAndreMin" type="xs:long" />
+      <xs:element minOccurs="0" name="samletInfoMin" type="xs:long" />
+      <xs:element minOccurs="0" name="utfyllingMin" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Brukeropplevelse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="enkeltKrevende" type="xs:string" />
+      <xs:element minOccurs="0" name="krevendeForh" type="xs:string" />
+      <xs:element minOccurs="0" name="forklarKrevendeForh" type="xs:string" />
+      <xs:element minOccurs="0" name="krevendeForhDLId" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Kontakt">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="kontaktPersonNavn" type="xs:string" />
+      <xs:element minOccurs="0" name="kontaktPersonEpost" type="xs:string" />
+      <xs:element minOccurs="0" name="kontaktPersonTelefon" type="xs:string" />
+      <xs:element minOccurs="0" name="kontaktInfoBekreftet" type="xs:string" />
+      <xs:element minOccurs="0" name="kontaktInfoKommentar" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Hjelpefelter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="hjelpefelt1" type="xs:string" />
+      <xs:element minOccurs="0" name="hjelpefelt2" type="xs:string" />
+      <xs:element minOccurs="0" name="hjelpefelt3" type="xs:string" />
+      <xs:element minOccurs="0" name="hjelpefelt4" type="xs:string" />
+      <xs:element minOccurs="0" name="hjelpefelt5" type="xs:string" />
+      <xs:element minOccurs="0" name="hjelpefelt6" type="xs:string" />
+      <xs:element minOccurs="0" name="hjelpefelt7" type="xs:string" />
+      <xs:element minOccurs="0" name="hjelpefelt8" type="xs:string" />
+      <xs:element minOccurs="0" name="hjelpefelt9" type="xs:string" />
+      <xs:element minOccurs="0" name="hjelpefelt10" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SkjemaTekster">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="skjemaNavnNB" type="xs:string" />
+      <xs:element minOccurs="0" name="skjemaNavnNN" type="xs:string" />
+      <xs:element minOccurs="0" name="skjemaNavnEN" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Naering">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="naeringskode" type="xs:string" />
+      <xs:element minOccurs="0" name="naeringKortBeskr" type="xs:string" />
+      <xs:element minOccurs="0" name="naeringLangBeskr" type="xs:string" />
+      <xs:element minOccurs="0" name="naeringInfoBekreftet" type="xs:string" />
+      <xs:element minOccurs="0" name="naeringAlltidViktigste" type="xs:string" />
+      <xs:element minOccurs="0" name="naeringDatoEndring" type="xs:string" />
+      <xs:element minOccurs="0" name="naeringNyTekst" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="KlassInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="KlassID" type="xs:string" />
+      <xs:element minOccurs="0" name="KlassDatamodellNode" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="A3_RA0792_M">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InternInfo" type="InternInfo" />
+        <xs:element minOccurs="0" name="Tidsbruk" type="Tidsbruk" />
+        <xs:element minOccurs="0" name="Brukeropplevelse" type="Brukeropplevelse" />
+        <xs:element minOccurs="0" name="Kontakt" type="Kontakt" />
+        <xs:element minOccurs="0" name="Hjelpefelter" type="Hjelpefelter" />
+        <xs:element minOccurs="0" maxOccurs="999" name="KlassInfo" type="KlassInfo" />
+        <xs:element minOccurs="0" name="SkjemaData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="investMaskinerJaNei" type="xs:string" />
+              <xs:element minOccurs="0" name="investMaskinerSum" type="xs:long" />
+              <xs:element minOccurs="0" name="merverdiMaskinerRefJaNei" type="xs:string" />
+              <xs:element minOccurs="0" name="merverdiMaskinerRefSum" type="xs:long" />
+              <xs:element minOccurs="0" name="planInvestMaskinerJaNei" type="xs:string" />
+              <xs:element minOccurs="0" name="planInvestMaskinerSum" type="xs:long" />
+              <xs:element minOccurs="0" name="investBilerJaNei" type="xs:string" />
+              <xs:element minOccurs="0" name="investBilerSum" type="xs:long" />
+              <xs:element minOccurs="0" name="merverdiBilerRefJaNei" type="xs:string" />
+              <xs:element minOccurs="0" name="merverdibilerRefSum" type="xs:long" />
+              <xs:element minOccurs="0" name="planInvestBilerJaNei" type="xs:string" />
+              <xs:element minOccurs="0" name="planInvestBilerSum" type="xs:long" />
+              <xs:element minOccurs="0" name="investByggJaNei" type="xs:string" />
+              <xs:element minOccurs="0" name="investByggSum" type="xs:long" />
+              <xs:element minOccurs="0" name="merverdiByggRefJaNei" type="xs:string" />
+              <xs:element minOccurs="0" name="merverdiByggRefSum" type="xs:long" />
+              <xs:element minOccurs="0" name="planInvestByggJaNei" type="xs:string" />
+              <xs:element minOccurs="0" name="planInvestByggSum" type="xs:long" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute fixed="ALTINNSTUDIO" name="dataFormatProvider" type="xs:string" />
+      <xs:attribute fixed="A30792" name="dataFormatId" type="xs:string" />
+      <xs:attribute fixed="1" name="dataFormatVersion" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+</xsd:schema>

@@ -1,0 +1,149 @@
+﻿{
+  "$schema": "https://altinncdn.no/schemas/json/layout/layout.schema.v1.json",
+  "data": {
+    "layout": [
+      {
+        "id": "7d0dcaef-44aa-4165-b011-0d6adebc26c9",
+        "type": "Paragraph",
+        "textResourceBindings": {
+          "title": "lang.kontaktogkommentar.tittel.kontakttittel"
+        },
+        "dataModelBindings": {}
+      },
+      {
+        "id": "c8cc9a43-9f57-4fc0-94aa-4b8c098a0b84",
+        "type": "TextArea",
+        "textResourceBindings": {
+          "title": "lang.kontaktogkommentar.tittel.kontaktkommentar"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "Kontakt.kontaktInfoKommentar"
+        },
+        "grid": {
+          "XS": 12
+        },
+        "required": false,
+        "readOnly": false,
+        "labelSettings": {
+          "optionalIndicator": false
+        }
+      },
+      {
+        "id": "Kontakt-0d6adebc26c9",
+        "type": "Paragraph",
+        "textResourceBindings": {
+          "title": "lang.kontaktogkommentar.tittel.kontaktinfo"
+        },
+        "grid": {
+          "xs": 12
+        },
+        "dataModelBindings": {}
+      },
+      {
+        "id": "49f56835-9251-4c3c-9a78-4d7c373923b3",
+        "type": "Input",
+        "textResourceBindings": {
+          "title": "lang.kontaktogkommentar.tittel.kontaktnavn"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "Kontakt.kontaktPersonNavn"
+        },
+        "grid": {
+          "xs": 12
+        },
+        "required": false,
+        "readOnly": false,
+        "labelSettings": {
+          "optionalIndicator": false
+        }
+      },
+      {
+        "id": "e9c32561-599e-461f-84d5-9b9b6d919b89",
+        "type": "Input",
+        "textResourceBindings": {
+          "title": "lang.kontaktogkommentar.tittel.kontakttelefon"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "Kontakt.kontaktPersonTelefon"
+        },
+        "grid": {
+          "xs": 12
+        },
+        "required": false,
+        "readOnly": false,
+        "labelSettings": {
+          "optionalIndicator": false
+        }
+      },
+      {
+        "id": "e91a638c-5277-40ee-9295-31480b643890",
+        "type": "Input",
+        "textResourceBindings": {
+          "title": "lang.kontaktogkommentar.tittel.kontaktepost"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "Kontakt.kontaktPersonEpost"
+        },
+        "grid": {
+          "mxs": 12
+        },
+        "required": false,
+        "readOnly": false,
+        "labelSettings": {
+          "optionalIndicator": false
+        }
+      },
+      {
+        "id": "5541a66b-2fb5-4637-9587-f790ed7f1247",
+        "type": "Checkboxes",
+        "textResourceBindings": {
+          "title": "lang.kontaktogkommentar.tittel.kontaktbekreft",
+          "description": ""
+        },
+        "dataModelBindings": {
+          "simpleBinding": "Kontakt.kontaktInfoBekreftet"
+        },
+        "grid": {
+          "xs": 12
+        },
+        "options": [
+          {
+            "label": "lang.kontaktogkommentar.beskrivelse.kontaktbekreft",
+            "value": "1"
+          }
+        ],
+        "required": true,
+        "labelSettings": {
+          "optionalIndicator": false
+        }
+      },
+      {
+        "id": "ab9b59d8-962f-454b-9ab5-a8a6b8e2cbbc",
+        "type": "Button",
+        "textResourceBindings": {
+          "title": "lang.tittel.sendinn"
+        },
+        "dataModelBindings": {},
+        "grid": {
+          "xs": 12
+        }
+      },
+      {
+        "id": "01a71288-aa23-4271-8101-cc22f594c4d4",
+        "type": "NavigationButtons",
+        "textResourceBindings": {
+          "next": "lang.tittel.navigationneste",
+          "back": "lang.tittel.navigationtilbake"
+        },
+        "dataModelBindings": {},
+        "showBackButton": true,
+        "triggers": [
+          ""
+        ],
+        "grid": {
+          "xs": 12
+        }
+      }
+    ]
+  }
+}

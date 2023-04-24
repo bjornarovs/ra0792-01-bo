@@ -1,0 +1,2106 @@
+{
+  "Org": null,
+  "ServiceName": null,
+  "RepositoryName": null,
+  "ServiceId": null,
+  "TargetNamespace": null,
+  "Elements": {
+    "A3_RA0792_M": {
+      "ID": "A3_RA0792_M",
+      "ParentElement": null,
+      "TypeName": "A3_RA0792_M",
+      "Name": "A3_RA0792_M",
+      "DataBindingName": null,
+      "XPath": "/A3_RA0792_M",
+      "Restrictions": {},
+      "Type": 0,
+      "XsdValueType": null,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "A3_RA0792_M",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#",
+      "DisplayString": "A3_RA0792_M : [0..1] 0"
+    },
+    "A3_RA0792_M.dataFormatProvider": {
+      "ID": "A3_RA0792_M.dataFormatProvider",
+      "ParentElement": "A3_RA0792_M",
+      "TypeName": "String",
+      "Name": "dataFormatProvider",
+      "DataBindingName": null,
+      "XPath": "/A3_RA0792_M/dataFormatProvider",
+      "Restrictions": {},
+      "Type": 2,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "dataFormatProvider",
+      "IsTagContent": false,
+      "FixedValue": "ALTINNSTUDIO",
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/dataFormatProvider",
+      "DisplayString": "A3_RA0792_M.dataFormatProvider : [0..1] String"
+    },
+    "A3_RA0792_M.dataFormatId": {
+      "ID": "A3_RA0792_M.dataFormatId",
+      "ParentElement": "A3_RA0792_M",
+      "TypeName": "String",
+      "Name": "dataFormatId",
+      "DataBindingName": null,
+      "XPath": "/A3_RA0792_M/dataFormatId",
+      "Restrictions": {},
+      "Type": 2,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "dataFormatId",
+      "IsTagContent": false,
+      "FixedValue": "A30792",
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/dataFormatId",
+      "DisplayString": "A3_RA0792_M.dataFormatId : [0..1] String"
+    },
+    "A3_RA0792_M.dataFormatVersion": {
+      "ID": "A3_RA0792_M.dataFormatVersion",
+      "ParentElement": "A3_RA0792_M",
+      "TypeName": "String",
+      "Name": "dataFormatVersion",
+      "DataBindingName": null,
+      "XPath": "/A3_RA0792_M/dataFormatVersion",
+      "Restrictions": {},
+      "Type": 2,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "dataFormatVersion",
+      "IsTagContent": false,
+      "FixedValue": "1",
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/dataFormatVersion",
+      "DisplayString": "A3_RA0792_M.dataFormatVersion : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo": {
+      "ID": "A3_RA0792_M.InternInfo",
+      "ParentElement": "A3_RA0792_M",
+      "TypeName": "InternInfo",
+      "Name": "InternInfo",
+      "DataBindingName": null,
+      "XPath": "/A3_RA0792_M/InternInfo",
+      "Restrictions": {},
+      "Type": 1,
+      "XsdValueType": null,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "InternInfo",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo",
+      "DisplayString": "A3_RA0792_M.InternInfo : [0..1] InternInfo"
+    },
+    "A3_RA0792_M.InternInfo.raNummer": {
+      "ID": "A3_RA0792_M.InternInfo.raNummer",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "raNummer",
+      "Name": "raNummer",
+      "DataBindingName": "InternInfo.raNummer",
+      "XPath": "/A3_RA0792_M/InternInfo/raNummer",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "raNummer",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/raNummer",
+      "DisplayString": "A3_RA0792_M.InternInfo.raNummer : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.skjemaVersjon": {
+      "ID": "A3_RA0792_M.InternInfo.skjemaVersjon",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "skjemaVersjon",
+      "Name": "skjemaVersjon",
+      "DataBindingName": "InternInfo.skjemaVersjon",
+      "XPath": "/A3_RA0792_M/InternInfo/skjemaVersjon",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "skjemaVersjon",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/skjemaVersjon",
+      "DisplayString": "A3_RA0792_M.InternInfo.skjemaVersjon : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.endepunktUrl": {
+      "ID": "A3_RA0792_M.InternInfo.endepunktUrl",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "endepunktUrl",
+      "Name": "endepunktUrl",
+      "DataBindingName": "InternInfo.endepunktUrl",
+      "XPath": "/A3_RA0792_M/InternInfo/endepunktUrl",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "endepunktUrl",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/endepunktUrl",
+      "DisplayString": "A3_RA0792_M.InternInfo.endepunktUrl : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.undersoekelsesNr": {
+      "ID": "A3_RA0792_M.InternInfo.undersoekelsesNr",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "undersoekelsesNr",
+      "Name": "undersoekelsesNr",
+      "DataBindingName": "InternInfo.undersoekelsesNr",
+      "XPath": "/A3_RA0792_M/InternInfo/undersoekelsesNr",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "undersoekelsesNr",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/undersoekelsesNr",
+      "DisplayString": "A3_RA0792_M.InternInfo.undersoekelsesNr : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.undersoekelsesInfoUrl": {
+      "ID": "A3_RA0792_M.InternInfo.undersoekelsesInfoUrl",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "undersoekelsesInfoUrl",
+      "Name": "undersoekelsesInfoUrl",
+      "DataBindingName": "InternInfo.undersoekelsesInfoUrl",
+      "XPath": "/A3_RA0792_M/InternInfo/undersoekelsesInfoUrl",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "undersoekelsesInfoUrl",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/undersoekelsesInfoUrl",
+      "DisplayString": "A3_RA0792_M.InternInfo.undersoekelsesInfoUrl : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.visOppgaveByrde": {
+      "ID": "A3_RA0792_M.InternInfo.visOppgaveByrde",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "visOppgaveByrde",
+      "Name": "visOppgaveByrde",
+      "DataBindingName": "InternInfo.visOppgaveByrde",
+      "XPath": "/A3_RA0792_M/InternInfo/visOppgaveByrde",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "visOppgaveByrde",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/visOppgaveByrde",
+      "DisplayString": "A3_RA0792_M.InternInfo.visOppgaveByrde : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.visBrukeropplevelse": {
+      "ID": "A3_RA0792_M.InternInfo.visBrukeropplevelse",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "visBrukeropplevelse",
+      "Name": "visBrukeropplevelse",
+      "DataBindingName": "InternInfo.visBrukeropplevelse",
+      "XPath": "/A3_RA0792_M/InternInfo/visBrukeropplevelse",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "visBrukeropplevelse",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/visBrukeropplevelse",
+      "DisplayString": "A3_RA0792_M.InternInfo.visBrukeropplevelse : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.delregNr": {
+      "ID": "A3_RA0792_M.InternInfo.delregNr",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "delregNr",
+      "Name": "delregNr",
+      "DataBindingName": "InternInfo.delregNr",
+      "XPath": "/A3_RA0792_M/InternInfo/delregNr",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "delregNr",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/delregNr",
+      "DisplayString": "A3_RA0792_M.InternInfo.delregNr : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.periodeFritekst": {
+      "ID": "A3_RA0792_M.InternInfo.periodeFritekst",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "periodeFritekst",
+      "Name": "periodeFritekst",
+      "DataBindingName": "InternInfo.periodeFritekst",
+      "XPath": "/A3_RA0792_M/InternInfo/periodeFritekst",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "periodeFritekst",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/periodeFritekst",
+      "DisplayString": "A3_RA0792_M.InternInfo.periodeFritekst : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.periodeFomDato": {
+      "ID": "A3_RA0792_M.InternInfo.periodeFomDato",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "periodeFomDato",
+      "Name": "periodeFomDato",
+      "DataBindingName": "InternInfo.periodeFomDato",
+      "XPath": "/A3_RA0792_M/InternInfo/periodeFomDato",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "periodeFomDato",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/periodeFomDato",
+      "DisplayString": "A3_RA0792_M.InternInfo.periodeFomDato : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.periodeTomDato": {
+      "ID": "A3_RA0792_M.InternInfo.periodeTomDato",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "periodeTomDato",
+      "Name": "periodeTomDato",
+      "DataBindingName": "InternInfo.periodeTomDato",
+      "XPath": "/A3_RA0792_M/InternInfo/periodeTomDato",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "periodeTomDato",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/periodeTomDato",
+      "DisplayString": "A3_RA0792_M.InternInfo.periodeTomDato : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.periodeType": {
+      "ID": "A3_RA0792_M.InternInfo.periodeType",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "periodeType",
+      "Name": "periodeType",
+      "DataBindingName": "InternInfo.periodeType",
+      "XPath": "/A3_RA0792_M/InternInfo/periodeType",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "periodeType",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/periodeType",
+      "DisplayString": "A3_RA0792_M.InternInfo.periodeType : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.periodeNummer": {
+      "ID": "A3_RA0792_M.InternInfo.periodeNummer",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "periodeNummer",
+      "Name": "periodeNummer",
+      "DataBindingName": "InternInfo.periodeNummer",
+      "XPath": "/A3_RA0792_M/InternInfo/periodeNummer",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "periodeNummer",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/periodeNummer",
+      "DisplayString": "A3_RA0792_M.InternInfo.periodeNummer : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.periodeAAr": {
+      "ID": "A3_RA0792_M.InternInfo.periodeAAr",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "periodeAAr",
+      "Name": "periodeAAr",
+      "DataBindingName": "InternInfo.periodeAAr",
+      "XPath": "/A3_RA0792_M/InternInfo/periodeAAr",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "periodeAAr",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/periodeAAr",
+      "DisplayString": "A3_RA0792_M.InternInfo.periodeAAr : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.periodeDato": {
+      "ID": "A3_RA0792_M.InternInfo.periodeDato",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "periodeDato",
+      "Name": "periodeDato",
+      "DataBindingName": "InternInfo.periodeDato",
+      "XPath": "/A3_RA0792_M/InternInfo/periodeDato",
+      "Restrictions": {},
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "periodeDato",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/periodeDato",
+      "DisplayString": "A3_RA0792_M.InternInfo.periodeDato : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.enhetsIdent": {
+      "ID": "A3_RA0792_M.InternInfo.enhetsIdent",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "enhetsIdent",
+      "Name": "enhetsIdent",
+      "DataBindingName": "InternInfo.enhetsIdent",
+      "XPath": "/A3_RA0792_M/InternInfo/enhetsIdent",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "enhetsIdent",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/enhetsIdent",
+      "DisplayString": "A3_RA0792_M.InternInfo.enhetsIdent : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.enhetsType": {
+      "ID": "A3_RA0792_M.InternInfo.enhetsType",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "enhetsType",
+      "Name": "enhetsType",
+      "DataBindingName": "InternInfo.enhetsType",
+      "XPath": "/A3_RA0792_M/InternInfo/enhetsType",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "enhetsType",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/enhetsType",
+      "DisplayString": "A3_RA0792_M.InternInfo.enhetsType : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.enhetsOrgNr": {
+      "ID": "A3_RA0792_M.InternInfo.enhetsOrgNr",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "enhetsOrgNr",
+      "Name": "enhetsOrgNr",
+      "DataBindingName": "InternInfo.enhetsOrgNr",
+      "XPath": "/A3_RA0792_M/InternInfo/enhetsOrgNr",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "enhetsOrgNr",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/enhetsOrgNr",
+      "DisplayString": "A3_RA0792_M.InternInfo.enhetsOrgNr : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.enhetsNavn": {
+      "ID": "A3_RA0792_M.InternInfo.enhetsNavn",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "enhetsNavn",
+      "Name": "enhetsNavn",
+      "DataBindingName": "InternInfo.enhetsNavn",
+      "XPath": "/A3_RA0792_M/InternInfo/enhetsNavn",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "enhetsNavn",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/enhetsNavn",
+      "DisplayString": "A3_RA0792_M.InternInfo.enhetsNavn : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.enhetsGateadresse": {
+      "ID": "A3_RA0792_M.InternInfo.enhetsGateadresse",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "enhetsGateadresse",
+      "Name": "enhetsGateadresse",
+      "DataBindingName": "InternInfo.enhetsGateadresse",
+      "XPath": "/A3_RA0792_M/InternInfo/enhetsGateadresse",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "enhetsGateadresse",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/enhetsGateadresse",
+      "DisplayString": "A3_RA0792_M.InternInfo.enhetsGateadresse : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.enhetsPostnr": {
+      "ID": "A3_RA0792_M.InternInfo.enhetsPostnr",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "enhetsPostnr",
+      "Name": "enhetsPostnr",
+      "DataBindingName": "InternInfo.enhetsPostnr",
+      "XPath": "/A3_RA0792_M/InternInfo/enhetsPostnr",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "enhetsPostnr",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/enhetsPostnr",
+      "DisplayString": "A3_RA0792_M.InternInfo.enhetsPostnr : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.enhetsPoststed": {
+      "ID": "A3_RA0792_M.InternInfo.enhetsPoststed",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "enhetsPoststed",
+      "Name": "enhetsPoststed",
+      "DataBindingName": "InternInfo.enhetsPoststed",
+      "XPath": "/A3_RA0792_M/InternInfo/enhetsPoststed",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "enhetsPoststed",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/enhetsPoststed",
+      "DisplayString": "A3_RA0792_M.InternInfo.enhetsPoststed : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.enhetsAvdeling": {
+      "ID": "A3_RA0792_M.InternInfo.enhetsAvdeling",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "enhetsAvdeling",
+      "Name": "enhetsAvdeling",
+      "DataBindingName": "InternInfo.enhetsAvdeling",
+      "XPath": "/A3_RA0792_M/InternInfo/enhetsAvdeling",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "enhetsAvdeling",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/enhetsAvdeling",
+      "DisplayString": "A3_RA0792_M.InternInfo.enhetsAvdeling : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.reporteeOrgNr": {
+      "ID": "A3_RA0792_M.InternInfo.reporteeOrgNr",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "reporteeOrgNr",
+      "Name": "reporteeOrgNr",
+      "DataBindingName": "InternInfo.reporteeOrgNr",
+      "XPath": "/A3_RA0792_M/InternInfo/reporteeOrgNr",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "reporteeOrgNr",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/reporteeOrgNr",
+      "DisplayString": "A3_RA0792_M.InternInfo.reporteeOrgNr : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.parentId": {
+      "ID": "A3_RA0792_M.InternInfo.parentId",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "parentId",
+      "Name": "parentId",
+      "DataBindingName": "InternInfo.parentId",
+      "XPath": "/A3_RA0792_M/InternInfo/parentId",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "parentId",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/parentId",
+      "DisplayString": "A3_RA0792_M.InternInfo.parentId : [0..1] String"
+    },
+    "A3_RA0792_M.InternInfo.childId": {
+      "ID": "A3_RA0792_M.InternInfo.childId",
+      "ParentElement": "A3_RA0792_M.InternInfo",
+      "TypeName": "childId",
+      "Name": "childId",
+      "DataBindingName": "InternInfo.childId",
+      "XPath": "/A3_RA0792_M/InternInfo/childId",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "childId",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/InternInfo/properties/childId",
+      "DisplayString": "A3_RA0792_M.InternInfo.childId : [0..1] String"
+    },
+    "A3_RA0792_M.Tidsbruk": {
+      "ID": "A3_RA0792_M.Tidsbruk",
+      "ParentElement": "A3_RA0792_M",
+      "TypeName": "Tidsbruk",
+      "Name": "Tidsbruk",
+      "DataBindingName": null,
+      "XPath": "/A3_RA0792_M/Tidsbruk",
+      "Restrictions": {},
+      "Type": 1,
+      "XsdValueType": null,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "Tidsbruk",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Tidsbruk",
+      "DisplayString": "A3_RA0792_M.Tidsbruk : [0..1] Tidsbruk"
+    },
+    "A3_RA0792_M.Tidsbruk.hjelpAvAndre": {
+      "ID": "A3_RA0792_M.Tidsbruk.hjelpAvAndre",
+      "ParentElement": "A3_RA0792_M.Tidsbruk",
+      "TypeName": "hjelpAvAndre",
+      "Name": "hjelpAvAndre",
+      "DataBindingName": "Tidsbruk.hjelpAvAndre",
+      "XPath": "/A3_RA0792_M/Tidsbruk/hjelpAvAndre",
+      "Restrictions": {
+        "enumeration": {
+          "Value": "0;1"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "hjelpAvAndre",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Tidsbruk/properties/hjelpAvAndre",
+      "DisplayString": "A3_RA0792_M.Tidsbruk.hjelpAvAndre : [0..1] String"
+    },
+    "A3_RA0792_M.Tidsbruk.samletInfo": {
+      "ID": "A3_RA0792_M.Tidsbruk.samletInfo",
+      "ParentElement": "A3_RA0792_M.Tidsbruk",
+      "TypeName": "samletInfo",
+      "Name": "samletInfo",
+      "DataBindingName": "Tidsbruk.samletInfo",
+      "XPath": "/A3_RA0792_M/Tidsbruk/samletInfo",
+      "Restrictions": {
+        "enumeration": {
+          "Value": "0;1"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "samletInfo",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Tidsbruk/properties/samletInfo",
+      "DisplayString": "A3_RA0792_M.Tidsbruk.samletInfo : [0..1] String"
+    },
+    "A3_RA0792_M.Tidsbruk.hjelpAvAndreMin": {
+      "ID": "A3_RA0792_M.Tidsbruk.hjelpAvAndreMin",
+      "ParentElement": "A3_RA0792_M.Tidsbruk",
+      "TypeName": "hjelpAvAndreMin",
+      "Name": "hjelpAvAndreMin",
+      "DataBindingName": "Tidsbruk.hjelpAvAndreMin",
+      "XPath": "/A3_RA0792_M/Tidsbruk/hjelpAvAndreMin",
+      "Restrictions": {
+        "maximum": {
+          "Value": "9999"
+        },
+        "minimum": {
+          "Value": "0"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 16,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "hjelpAvAndreMin",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Tidsbruk/properties/hjelpAvAndreMin",
+      "DisplayString": "A3_RA0792_M.Tidsbruk.hjelpAvAndreMin : [0..1] Integer"
+    },
+    "A3_RA0792_M.Tidsbruk.samletInfoMin": {
+      "ID": "A3_RA0792_M.Tidsbruk.samletInfoMin",
+      "ParentElement": "A3_RA0792_M.Tidsbruk",
+      "TypeName": "samletInfoMin",
+      "Name": "samletInfoMin",
+      "DataBindingName": "Tidsbruk.samletInfoMin",
+      "XPath": "/A3_RA0792_M/Tidsbruk/samletInfoMin",
+      "Restrictions": {
+        "maximum": {
+          "Value": "9999"
+        },
+        "minimum": {
+          "Value": "0"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 16,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "samletInfoMin",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Tidsbruk/properties/samletInfoMin",
+      "DisplayString": "A3_RA0792_M.Tidsbruk.samletInfoMin : [0..1] Integer"
+    },
+    "A3_RA0792_M.Tidsbruk.utfyllingMin": {
+      "ID": "A3_RA0792_M.Tidsbruk.utfyllingMin",
+      "ParentElement": "A3_RA0792_M.Tidsbruk",
+      "TypeName": "utfyllingMin",
+      "Name": "utfyllingMin",
+      "DataBindingName": "Tidsbruk.utfyllingMin",
+      "XPath": "/A3_RA0792_M/Tidsbruk/utfyllingMin",
+      "Restrictions": {
+        "maximum": {
+          "Value": "9999"
+        },
+        "minimum": {
+          "Value": "0"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 16,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "utfyllingMin",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Tidsbruk/properties/utfyllingMin",
+      "DisplayString": "A3_RA0792_M.Tidsbruk.utfyllingMin : [0..1] Integer"
+    },
+    "A3_RA0792_M.Brukeropplevelse": {
+      "ID": "A3_RA0792_M.Brukeropplevelse",
+      "ParentElement": "A3_RA0792_M",
+      "TypeName": "Brukeropplevelse",
+      "Name": "Brukeropplevelse",
+      "DataBindingName": null,
+      "XPath": "/A3_RA0792_M/Brukeropplevelse",
+      "Restrictions": {},
+      "Type": 1,
+      "XsdValueType": null,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "Brukeropplevelse",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Brukeropplevelse",
+      "DisplayString": "A3_RA0792_M.Brukeropplevelse : [0..1] Brukeropplevelse"
+    },
+    "A3_RA0792_M.Brukeropplevelse.enkeltKrevende": {
+      "ID": "A3_RA0792_M.Brukeropplevelse.enkeltKrevende",
+      "ParentElement": "A3_RA0792_M.Brukeropplevelse",
+      "TypeName": "enkeltKrevende",
+      "Name": "enkeltKrevende",
+      "DataBindingName": "Brukeropplevelse.enkeltKrevende",
+      "XPath": "/A3_RA0792_M/Brukeropplevelse/enkeltKrevende",
+      "Restrictions": {
+        "enumeration": {
+          "Value": "1;2;3;"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "enkeltKrevende",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Brukeropplevelse/properties/enkeltKrevende",
+      "DisplayString": "A3_RA0792_M.Brukeropplevelse.enkeltKrevende : [0..1] String"
+    },
+    "A3_RA0792_M.Brukeropplevelse.krevendeForh": {
+      "ID": "A3_RA0792_M.Brukeropplevelse.krevendeForh",
+      "ParentElement": "A3_RA0792_M.Brukeropplevelse",
+      "TypeName": "krevendeForh",
+      "Name": "krevendeForh",
+      "DataBindingName": "Brukeropplevelse.krevendeForh",
+      "XPath": "/A3_RA0792_M/Brukeropplevelse/krevendeForh",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "krevendeForh",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Brukeropplevelse/properties/krevendeForh",
+      "DisplayString": "A3_RA0792_M.Brukeropplevelse.krevendeForh : [0..1] String"
+    },
+    "A3_RA0792_M.Brukeropplevelse.forklarKrevendeForh": {
+      "ID": "A3_RA0792_M.Brukeropplevelse.forklarKrevendeForh",
+      "ParentElement": "A3_RA0792_M.Brukeropplevelse",
+      "TypeName": "forklarKrevendeForh",
+      "Name": "forklarKrevendeForh",
+      "DataBindingName": "Brukeropplevelse.forklarKrevendeForh",
+      "XPath": "/A3_RA0792_M/Brukeropplevelse/forklarKrevendeForh",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "forklarKrevendeForh",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Brukeropplevelse/properties/forklarKrevendeForh",
+      "DisplayString": "A3_RA0792_M.Brukeropplevelse.forklarKrevendeForh : [0..1] String"
+    },
+    "A3_RA0792_M.Brukeropplevelse.krevendeForhDLId": {
+      "ID": "A3_RA0792_M.Brukeropplevelse.krevendeForhDLId",
+      "ParentElement": "A3_RA0792_M.Brukeropplevelse",
+      "TypeName": "krevendeForhDLId",
+      "Name": "krevendeForhDLId",
+      "DataBindingName": "Brukeropplevelse.krevendeForhDLId",
+      "XPath": "/A3_RA0792_M/Brukeropplevelse/krevendeForhDLId",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "krevendeForhDLId",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Brukeropplevelse/properties/krevendeForhDLId",
+      "DisplayString": "A3_RA0792_M.Brukeropplevelse.krevendeForhDLId : [0..1] String"
+    },
+    "A3_RA0792_M.Kontakt": {
+      "ID": "A3_RA0792_M.Kontakt",
+      "ParentElement": "A3_RA0792_M",
+      "TypeName": "Kontakt",
+      "Name": "Kontakt",
+      "DataBindingName": null,
+      "XPath": "/A3_RA0792_M/Kontakt",
+      "Restrictions": {},
+      "Type": 1,
+      "XsdValueType": null,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "Kontakt",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Kontakt",
+      "DisplayString": "A3_RA0792_M.Kontakt : [0..1] Kontakt"
+    },
+    "A3_RA0792_M.Kontakt.kontaktPersonNavn": {
+      "ID": "A3_RA0792_M.Kontakt.kontaktPersonNavn",
+      "ParentElement": "A3_RA0792_M.Kontakt",
+      "TypeName": "kontaktPersonNavn",
+      "Name": "kontaktPersonNavn",
+      "DataBindingName": "Kontakt.kontaktPersonNavn",
+      "XPath": "/A3_RA0792_M/Kontakt/kontaktPersonNavn",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "200"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "kontaktPersonNavn",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Kontakt/properties/kontaktPersonNavn",
+      "DisplayString": "A3_RA0792_M.Kontakt.kontaktPersonNavn : [0..1] String"
+    },
+    "A3_RA0792_M.Kontakt.kontaktPersonEpost": {
+      "ID": "A3_RA0792_M.Kontakt.kontaktPersonEpost",
+      "ParentElement": "A3_RA0792_M.Kontakt",
+      "TypeName": "kontaktPersonEpost",
+      "Name": "kontaktPersonEpost",
+      "DataBindingName": "Kontakt.kontaktPersonEpost",
+      "XPath": "/A3_RA0792_M/Kontakt/kontaktPersonEpost",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "200"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "kontaktPersonEpost",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Kontakt/properties/kontaktPersonEpost",
+      "DisplayString": "A3_RA0792_M.Kontakt.kontaktPersonEpost : [0..1] String"
+    },
+    "A3_RA0792_M.Kontakt.kontaktPersonTelefon": {
+      "ID": "A3_RA0792_M.Kontakt.kontaktPersonTelefon",
+      "ParentElement": "A3_RA0792_M.Kontakt",
+      "TypeName": "kontaktPersonTelefon",
+      "Name": "kontaktPersonTelefon",
+      "DataBindingName": "Kontakt.kontaktPersonTelefon",
+      "XPath": "/A3_RA0792_M/Kontakt/kontaktPersonTelefon",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "25"
+        },
+        "pattern": {
+          "Value": "^((00)?|(\\\u002B)?|()?)\\d{8,}$"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "kontaktPersonTelefon",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Kontakt/properties/kontaktPersonTelefon",
+      "DisplayString": "A3_RA0792_M.Kontakt.kontaktPersonTelefon : [0..1] String"
+    },
+    "A3_RA0792_M.Kontakt.kontaktInfoBekreftet": {
+      "ID": "A3_RA0792_M.Kontakt.kontaktInfoBekreftet",
+      "ParentElement": "A3_RA0792_M.Kontakt",
+      "TypeName": "kontaktInfoBekreftet",
+      "Name": "kontaktInfoBekreftet",
+      "DataBindingName": "Kontakt.kontaktInfoBekreftet",
+      "XPath": "/A3_RA0792_M/Kontakt/kontaktInfoBekreftet",
+      "Restrictions": {
+        "enumeration": {
+          "Value": "0;1"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "kontaktInfoBekreftet",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Kontakt/properties/kontaktInfoBekreftet",
+      "DisplayString": "A3_RA0792_M.Kontakt.kontaktInfoBekreftet : [0..1] String"
+    },
+    "A3_RA0792_M.Kontakt.kontaktInfoKommentar": {
+      "ID": "A3_RA0792_M.Kontakt.kontaktInfoKommentar",
+      "ParentElement": "A3_RA0792_M.Kontakt",
+      "TypeName": "kontaktInfoKommentar",
+      "Name": "kontaktInfoKommentar",
+      "DataBindingName": "Kontakt.kontaktInfoKommentar",
+      "XPath": "/A3_RA0792_M/Kontakt/kontaktInfoKommentar",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "2000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "kontaktInfoKommentar",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Kontakt/properties/kontaktInfoKommentar",
+      "DisplayString": "A3_RA0792_M.Kontakt.kontaktInfoKommentar : [0..1] String"
+    },
+    "A3_RA0792_M.Hjelpefelter": {
+      "ID": "A3_RA0792_M.Hjelpefelter",
+      "ParentElement": "A3_RA0792_M",
+      "TypeName": "Hjelpefelter",
+      "Name": "Hjelpefelter",
+      "DataBindingName": null,
+      "XPath": "/A3_RA0792_M/Hjelpefelter",
+      "Restrictions": {},
+      "Type": 1,
+      "XsdValueType": null,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "Hjelpefelter",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Hjelpefelter",
+      "DisplayString": "A3_RA0792_M.Hjelpefelter : [0..1] Hjelpefelter"
+    },
+    "A3_RA0792_M.Hjelpefelter.hjelpefelt1": {
+      "ID": "A3_RA0792_M.Hjelpefelter.hjelpefelt1",
+      "ParentElement": "A3_RA0792_M.Hjelpefelter",
+      "TypeName": "hjelpefelt1",
+      "Name": "hjelpefelt1",
+      "DataBindingName": "Hjelpefelter.hjelpefelt1",
+      "XPath": "/A3_RA0792_M/Hjelpefelter/hjelpefelt1",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "100"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "hjelpefelt1",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Hjelpefelter/properties/hjelpefelt1",
+      "DisplayString": "A3_RA0792_M.Hjelpefelter.hjelpefelt1 : [0..1] String"
+    },
+    "A3_RA0792_M.Hjelpefelter.hjelpefelt2": {
+      "ID": "A3_RA0792_M.Hjelpefelter.hjelpefelt2",
+      "ParentElement": "A3_RA0792_M.Hjelpefelter",
+      "TypeName": "hjelpefelt2",
+      "Name": "hjelpefelt2",
+      "DataBindingName": "Hjelpefelter.hjelpefelt2",
+      "XPath": "/A3_RA0792_M/Hjelpefelter/hjelpefelt2",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "100"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "hjelpefelt2",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Hjelpefelter/properties/hjelpefelt2",
+      "DisplayString": "A3_RA0792_M.Hjelpefelter.hjelpefelt2 : [0..1] String"
+    },
+    "A3_RA0792_M.Hjelpefelter.hjelpefelt3": {
+      "ID": "A3_RA0792_M.Hjelpefelter.hjelpefelt3",
+      "ParentElement": "A3_RA0792_M.Hjelpefelter",
+      "TypeName": "hjelpefelt3",
+      "Name": "hjelpefelt3",
+      "DataBindingName": "Hjelpefelter.hjelpefelt3",
+      "XPath": "/A3_RA0792_M/Hjelpefelter/hjelpefelt3",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "100"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "hjelpefelt3",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Hjelpefelter/properties/hjelpefelt3",
+      "DisplayString": "A3_RA0792_M.Hjelpefelter.hjelpefelt3 : [0..1] String"
+    },
+    "A3_RA0792_M.Hjelpefelter.hjelpefelt4": {
+      "ID": "A3_RA0792_M.Hjelpefelter.hjelpefelt4",
+      "ParentElement": "A3_RA0792_M.Hjelpefelter",
+      "TypeName": "hjelpefelt4",
+      "Name": "hjelpefelt4",
+      "DataBindingName": "Hjelpefelter.hjelpefelt4",
+      "XPath": "/A3_RA0792_M/Hjelpefelter/hjelpefelt4",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "100"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "hjelpefelt4",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Hjelpefelter/properties/hjelpefelt4",
+      "DisplayString": "A3_RA0792_M.Hjelpefelter.hjelpefelt4 : [0..1] String"
+    },
+    "A3_RA0792_M.Hjelpefelter.hjelpefelt5": {
+      "ID": "A3_RA0792_M.Hjelpefelter.hjelpefelt5",
+      "ParentElement": "A3_RA0792_M.Hjelpefelter",
+      "TypeName": "hjelpefelt5",
+      "Name": "hjelpefelt5",
+      "DataBindingName": "Hjelpefelter.hjelpefelt5",
+      "XPath": "/A3_RA0792_M/Hjelpefelter/hjelpefelt5",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "100"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "hjelpefelt5",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Hjelpefelter/properties/hjelpefelt5",
+      "DisplayString": "A3_RA0792_M.Hjelpefelter.hjelpefelt5 : [0..1] String"
+    },
+    "A3_RA0792_M.Hjelpefelter.hjelpefelt6": {
+      "ID": "A3_RA0792_M.Hjelpefelter.hjelpefelt6",
+      "ParentElement": "A3_RA0792_M.Hjelpefelter",
+      "TypeName": "hjelpefelt6",
+      "Name": "hjelpefelt6",
+      "DataBindingName": "Hjelpefelter.hjelpefelt6",
+      "XPath": "/A3_RA0792_M/Hjelpefelter/hjelpefelt6",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "100"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "hjelpefelt6",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Hjelpefelter/properties/hjelpefelt6",
+      "DisplayString": "A3_RA0792_M.Hjelpefelter.hjelpefelt6 : [0..1] String"
+    },
+    "A3_RA0792_M.Hjelpefelter.hjelpefelt7": {
+      "ID": "A3_RA0792_M.Hjelpefelter.hjelpefelt7",
+      "ParentElement": "A3_RA0792_M.Hjelpefelter",
+      "TypeName": "hjelpefelt7",
+      "Name": "hjelpefelt7",
+      "DataBindingName": "Hjelpefelter.hjelpefelt7",
+      "XPath": "/A3_RA0792_M/Hjelpefelter/hjelpefelt7",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "100"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "hjelpefelt7",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Hjelpefelter/properties/hjelpefelt7",
+      "DisplayString": "A3_RA0792_M.Hjelpefelter.hjelpefelt7 : [0..1] String"
+    },
+    "A3_RA0792_M.Hjelpefelter.hjelpefelt8": {
+      "ID": "A3_RA0792_M.Hjelpefelter.hjelpefelt8",
+      "ParentElement": "A3_RA0792_M.Hjelpefelter",
+      "TypeName": "hjelpefelt8",
+      "Name": "hjelpefelt8",
+      "DataBindingName": "Hjelpefelter.hjelpefelt8",
+      "XPath": "/A3_RA0792_M/Hjelpefelter/hjelpefelt8",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "100"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "hjelpefelt8",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Hjelpefelter/properties/hjelpefelt8",
+      "DisplayString": "A3_RA0792_M.Hjelpefelter.hjelpefelt8 : [0..1] String"
+    },
+    "A3_RA0792_M.Hjelpefelter.hjelpefelt9": {
+      "ID": "A3_RA0792_M.Hjelpefelter.hjelpefelt9",
+      "ParentElement": "A3_RA0792_M.Hjelpefelter",
+      "TypeName": "hjelpefelt9",
+      "Name": "hjelpefelt9",
+      "DataBindingName": "Hjelpefelter.hjelpefelt9",
+      "XPath": "/A3_RA0792_M/Hjelpefelter/hjelpefelt9",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "100"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "hjelpefelt9",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Hjelpefelter/properties/hjelpefelt9",
+      "DisplayString": "A3_RA0792_M.Hjelpefelter.hjelpefelt9 : [0..1] String"
+    },
+    "A3_RA0792_M.Hjelpefelter.hjelpefelt10": {
+      "ID": "A3_RA0792_M.Hjelpefelter.hjelpefelt10",
+      "ParentElement": "A3_RA0792_M.Hjelpefelter",
+      "TypeName": "hjelpefelt10",
+      "Name": "hjelpefelt10",
+      "DataBindingName": "Hjelpefelter.hjelpefelt10",
+      "XPath": "/A3_RA0792_M/Hjelpefelter/hjelpefelt10",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "100"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "hjelpefelt10",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/Hjelpefelter/properties/hjelpefelt10",
+      "DisplayString": "A3_RA0792_M.Hjelpefelter.hjelpefelt10 : [0..1] String"
+    },
+    "A3_RA0792_M.KlassInfo": {
+      "ID": "A3_RA0792_M.KlassInfo",
+      "ParentElement": "A3_RA0792_M",
+      "TypeName": "KlassInfo",
+      "Name": "KlassInfo",
+      "DataBindingName": "KlassInfo",
+      "XPath": "/A3_RA0792_M/KlassInfo",
+      "Restrictions": {},
+      "Type": 1,
+      "XsdValueType": null,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 99999,
+      "MinOccurs": 0,
+      "XName": "KlassInfo",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/KlassInfo",
+      "DisplayString": "A3_RA0792_M.KlassInfo : [0..99999] KlassInfo"
+    },
+    "A3_RA0792_M.KlassInfo.KlassID": {
+      "ID": "A3_RA0792_M.KlassInfo.KlassID",
+      "ParentElement": "A3_RA0792_M.KlassInfo",
+      "TypeName": "KlassID",
+      "Name": "KlassID",
+      "DataBindingName": "KlassInfo.KlassID",
+      "XPath": "/A3_RA0792_M/KlassInfo/KlassID",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "KlassID",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/KlassInfo/properties/KlassID",
+      "DisplayString": "A3_RA0792_M.KlassInfo.KlassID : [0..1] String"
+    },
+    "A3_RA0792_M.KlassInfo.KlassDatamodellNode": {
+      "ID": "A3_RA0792_M.KlassInfo.KlassDatamodellNode",
+      "ParentElement": "A3_RA0792_M.KlassInfo",
+      "TypeName": "KlassDatamodellNode",
+      "Name": "KlassDatamodellNode",
+      "DataBindingName": "KlassInfo.KlassDatamodellNode",
+      "XPath": "/A3_RA0792_M/KlassInfo/KlassDatamodellNode",
+      "Restrictions": {
+        "maxLength": {
+          "Value": "1000"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "KlassDatamodellNode",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/$defs/KlassInfo/properties/KlassDatamodellNode",
+      "DisplayString": "A3_RA0792_M.KlassInfo.KlassDatamodellNode : [0..1] String"
+    },
+    "A3_RA0792_M.SkjemaData": {
+      "ID": "A3_RA0792_M.SkjemaData",
+      "ParentElement": "A3_RA0792_M",
+      "TypeName": "SkjemaData",
+      "Name": "SkjemaData",
+      "DataBindingName": null,
+      "XPath": "/A3_RA0792_M/SkjemaData",
+      "Restrictions": {},
+      "Type": 1,
+      "XsdValueType": null,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "SkjemaData",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData",
+      "DisplayString": "A3_RA0792_M.SkjemaData : [0..1] SkjemaData"
+    },
+    "A3_RA0792_M.SkjemaData.investMaskinerJaNei": {
+      "ID": "A3_RA0792_M.SkjemaData.investMaskinerJaNei",
+      "ParentElement": "A3_RA0792_M.SkjemaData",
+      "TypeName": "investMaskinerJaNei",
+      "Name": "investMaskinerJaNei",
+      "DataBindingName": "SkjemaData.investMaskinerJaNei",
+      "XPath": "/A3_RA0792_M/SkjemaData/investMaskinerJaNei",
+      "Restrictions": {
+        "enumeration": {
+          "Value": "0;1"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "investMaskinerJaNei",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData/properties/investMaskinerJaNei",
+      "DisplayString": "A3_RA0792_M.SkjemaData.investMaskinerJaNei : [0..1] String"
+    },
+    "A3_RA0792_M.SkjemaData.investMaskinerSum": {
+      "ID": "A3_RA0792_M.SkjemaData.investMaskinerSum",
+      "ParentElement": "A3_RA0792_M.SkjemaData",
+      "TypeName": "investMaskinerSum",
+      "Name": "investMaskinerSum",
+      "DataBindingName": "SkjemaData.investMaskinerSum",
+      "XPath": "/A3_RA0792_M/SkjemaData/investMaskinerSum",
+      "Restrictions": {
+        "maximum": {
+          "Value": "99999999999"
+        },
+        "minimum": {
+          "Value": "0"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 16,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "investMaskinerSum",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData/properties/investMaskinerSum",
+      "DisplayString": "A3_RA0792_M.SkjemaData.investMaskinerSum : [0..1] Integer"
+    },
+    "A3_RA0792_M.SkjemaData.merverdiMaskinerRefJaNei": {
+      "ID": "A3_RA0792_M.SkjemaData.merverdiMaskinerRefJaNei",
+      "ParentElement": "A3_RA0792_M.SkjemaData",
+      "TypeName": "merverdiMaskinerRefJaNei",
+      "Name": "merverdiMaskinerRefJaNei",
+      "DataBindingName": "SkjemaData.merverdiMaskinerRefJaNei",
+      "XPath": "/A3_RA0792_M/SkjemaData/merverdiMaskinerRefJaNei",
+      "Restrictions": {
+        "enumeration": {
+          "Value": "0;1"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "merverdiMaskinerRefJaNei",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData/properties/merverdiMaskinerRefJaNei",
+      "DisplayString": "A3_RA0792_M.SkjemaData.merverdiMaskinerRefJaNei : [0..1] String"
+    },
+    "A3_RA0792_M.SkjemaData.merverdiMaskinerRefSum": {
+      "ID": "A3_RA0792_M.SkjemaData.merverdiMaskinerRefSum",
+      "ParentElement": "A3_RA0792_M.SkjemaData",
+      "TypeName": "merverdiMaskinerRefSum",
+      "Name": "merverdiMaskinerRefSum",
+      "DataBindingName": "SkjemaData.merverdiMaskinerRefSum",
+      "XPath": "/A3_RA0792_M/SkjemaData/merverdiMaskinerRefSum",
+      "Restrictions": {
+        "maximum": {
+          "Value": "99999999999"
+        },
+        "minimum": {
+          "Value": "0"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 16,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "merverdiMaskinerRefSum",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData/properties/merverdiMaskinerRefSum",
+      "DisplayString": "A3_RA0792_M.SkjemaData.merverdiMaskinerRefSum : [0..1] Integer"
+    },
+    "A3_RA0792_M.SkjemaData.planInvestMaskinerJaNei": {
+      "ID": "A3_RA0792_M.SkjemaData.planInvestMaskinerJaNei",
+      "ParentElement": "A3_RA0792_M.SkjemaData",
+      "TypeName": "planInvestMaskinerJaNei",
+      "Name": "planInvestMaskinerJaNei",
+      "DataBindingName": "SkjemaData.planInvestMaskinerJaNei",
+      "XPath": "/A3_RA0792_M/SkjemaData/planInvestMaskinerJaNei",
+      "Restrictions": {
+        "enumeration": {
+          "Value": "0;1"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "planInvestMaskinerJaNei",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData/properties/planInvestMaskinerJaNei",
+      "DisplayString": "A3_RA0792_M.SkjemaData.planInvestMaskinerJaNei : [0..1] String"
+    },
+    "A3_RA0792_M.SkjemaData.planInvestMaskinerSum": {
+      "ID": "A3_RA0792_M.SkjemaData.planInvestMaskinerSum",
+      "ParentElement": "A3_RA0792_M.SkjemaData",
+      "TypeName": "planInvestMaskinerSum",
+      "Name": "planInvestMaskinerSum",
+      "DataBindingName": "SkjemaData.planInvestMaskinerSum",
+      "XPath": "/A3_RA0792_M/SkjemaData/planInvestMaskinerSum",
+      "Restrictions": {
+        "maximum": {
+          "Value": "99999999999"
+        },
+        "minimum": {
+          "Value": "0"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 16,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "planInvestMaskinerSum",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData/properties/planInvestMaskinerSum",
+      "DisplayString": "A3_RA0792_M.SkjemaData.planInvestMaskinerSum : [0..1] Integer"
+    },
+    "A3_RA0792_M.SkjemaData.investBilerJaNei": {
+      "ID": "A3_RA0792_M.SkjemaData.investBilerJaNei",
+      "ParentElement": "A3_RA0792_M.SkjemaData",
+      "TypeName": "investBilerJaNei",
+      "Name": "investBilerJaNei",
+      "DataBindingName": "SkjemaData.investBilerJaNei",
+      "XPath": "/A3_RA0792_M/SkjemaData/investBilerJaNei",
+      "Restrictions": {
+        "enumeration": {
+          "Value": "0;1"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "investBilerJaNei",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData/properties/investBilerJaNei",
+      "DisplayString": "A3_RA0792_M.SkjemaData.investBilerJaNei : [0..1] String"
+    },
+    "A3_RA0792_M.SkjemaData.investBilerSum": {
+      "ID": "A3_RA0792_M.SkjemaData.investBilerSum",
+      "ParentElement": "A3_RA0792_M.SkjemaData",
+      "TypeName": "investBilerSum",
+      "Name": "investBilerSum",
+      "DataBindingName": "SkjemaData.investBilerSum",
+      "XPath": "/A3_RA0792_M/SkjemaData/investBilerSum",
+      "Restrictions": {
+        "maximum": {
+          "Value": "99999999999"
+        },
+        "minimum": {
+          "Value": "0"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 16,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "investBilerSum",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData/properties/investBilerSum",
+      "DisplayString": "A3_RA0792_M.SkjemaData.investBilerSum : [0..1] Integer"
+    },
+    "A3_RA0792_M.SkjemaData.merverdiBilerRefJaNei": {
+      "ID": "A3_RA0792_M.SkjemaData.merverdiBilerRefJaNei",
+      "ParentElement": "A3_RA0792_M.SkjemaData",
+      "TypeName": "merverdiBilerRefJaNei",
+      "Name": "merverdiBilerRefJaNei",
+      "DataBindingName": "SkjemaData.merverdiBilerRefJaNei",
+      "XPath": "/A3_RA0792_M/SkjemaData/merverdiBilerRefJaNei",
+      "Restrictions": {
+        "enumeration": {
+          "Value": "0;1"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "merverdiBilerRefJaNei",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData/properties/merverdiBilerRefJaNei",
+      "DisplayString": "A3_RA0792_M.SkjemaData.merverdiBilerRefJaNei : [0..1] String"
+    },
+    "A3_RA0792_M.SkjemaData.merverdibilerRefSum": {
+      "ID": "A3_RA0792_M.SkjemaData.merverdibilerRefSum",
+      "ParentElement": "A3_RA0792_M.SkjemaData",
+      "TypeName": "merverdibilerRefSum",
+      "Name": "merverdibilerRefSum",
+      "DataBindingName": "SkjemaData.merverdibilerRefSum",
+      "XPath": "/A3_RA0792_M/SkjemaData/merverdibilerRefSum",
+      "Restrictions": {
+        "maximum": {
+          "Value": "99999999999"
+        },
+        "minimum": {
+          "Value": "0"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 16,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "merverdibilerRefSum",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData/properties/merverdibilerRefSum",
+      "DisplayString": "A3_RA0792_M.SkjemaData.merverdibilerRefSum : [0..1] Integer"
+    },
+    "A3_RA0792_M.SkjemaData.planInvestBilerJaNei": {
+      "ID": "A3_RA0792_M.SkjemaData.planInvestBilerJaNei",
+      "ParentElement": "A3_RA0792_M.SkjemaData",
+      "TypeName": "planInvestBilerJaNei",
+      "Name": "planInvestBilerJaNei",
+      "DataBindingName": "SkjemaData.planInvestBilerJaNei",
+      "XPath": "/A3_RA0792_M/SkjemaData/planInvestBilerJaNei",
+      "Restrictions": {
+        "enumeration": {
+          "Value": "0;1"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "planInvestBilerJaNei",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData/properties/planInvestBilerJaNei",
+      "DisplayString": "A3_RA0792_M.SkjemaData.planInvestBilerJaNei : [0..1] String"
+    },
+    "A3_RA0792_M.SkjemaData.planInvestBilerSum": {
+      "ID": "A3_RA0792_M.SkjemaData.planInvestBilerSum",
+      "ParentElement": "A3_RA0792_M.SkjemaData",
+      "TypeName": "planInvestBilerSum",
+      "Name": "planInvestBilerSum",
+      "DataBindingName": "SkjemaData.planInvestBilerSum",
+      "XPath": "/A3_RA0792_M/SkjemaData/planInvestBilerSum",
+      "Restrictions": {
+        "maximum": {
+          "Value": "99999999999"
+        },
+        "minimum": {
+          "Value": "0"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 16,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "planInvestBilerSum",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData/properties/planInvestBilerSum",
+      "DisplayString": "A3_RA0792_M.SkjemaData.planInvestBilerSum : [0..1] Integer"
+    },
+    "A3_RA0792_M.SkjemaData.investByggJaNei": {
+      "ID": "A3_RA0792_M.SkjemaData.investByggJaNei",
+      "ParentElement": "A3_RA0792_M.SkjemaData",
+      "TypeName": "investByggJaNei",
+      "Name": "investByggJaNei",
+      "DataBindingName": "SkjemaData.investByggJaNei",
+      "XPath": "/A3_RA0792_M/SkjemaData/investByggJaNei",
+      "Restrictions": {
+        "enumeration": {
+          "Value": "0;1"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "investByggJaNei",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData/properties/investByggJaNei",
+      "DisplayString": "A3_RA0792_M.SkjemaData.investByggJaNei : [0..1] String"
+    },
+    "A3_RA0792_M.SkjemaData.investByggSum": {
+      "ID": "A3_RA0792_M.SkjemaData.investByggSum",
+      "ParentElement": "A3_RA0792_M.SkjemaData",
+      "TypeName": "investByggSum",
+      "Name": "investByggSum",
+      "DataBindingName": "SkjemaData.investByggSum",
+      "XPath": "/A3_RA0792_M/SkjemaData/investByggSum",
+      "Restrictions": {
+        "maximum": {
+          "Value": "99999999999"
+        },
+        "minimum": {
+          "Value": "0"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 16,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "investByggSum",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData/properties/investByggSum",
+      "DisplayString": "A3_RA0792_M.SkjemaData.investByggSum : [0..1] Integer"
+    },
+    "A3_RA0792_M.SkjemaData.merverdiByggRefJaNei": {
+      "ID": "A3_RA0792_M.SkjemaData.merverdiByggRefJaNei",
+      "ParentElement": "A3_RA0792_M.SkjemaData",
+      "TypeName": "merverdiByggRefJaNei",
+      "Name": "merverdiByggRefJaNei",
+      "DataBindingName": "SkjemaData.merverdiByggRefJaNei",
+      "XPath": "/A3_RA0792_M/SkjemaData/merverdiByggRefJaNei",
+      "Restrictions": {
+        "enumeration": {
+          "Value": "0;1"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "merverdiByggRefJaNei",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData/properties/merverdiByggRefJaNei",
+      "DisplayString": "A3_RA0792_M.SkjemaData.merverdiByggRefJaNei : [0..1] String"
+    },
+    "A3_RA0792_M.SkjemaData.merverdiByggRefSum": {
+      "ID": "A3_RA0792_M.SkjemaData.merverdiByggRefSum",
+      "ParentElement": "A3_RA0792_M.SkjemaData",
+      "TypeName": "merverdiByggRefSum",
+      "Name": "merverdiByggRefSum",
+      "DataBindingName": "SkjemaData.merverdiByggRefSum",
+      "XPath": "/A3_RA0792_M/SkjemaData/merverdiByggRefSum",
+      "Restrictions": {
+        "maximum": {
+          "Value": "99999999999"
+        },
+        "minimum": {
+          "Value": "0"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 16,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "merverdiByggRefSum",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData/properties/merverdiByggRefSum",
+      "DisplayString": "A3_RA0792_M.SkjemaData.merverdiByggRefSum : [0..1] Integer"
+    },
+    "A3_RA0792_M.SkjemaData.planInvestByggJaNei": {
+      "ID": "A3_RA0792_M.SkjemaData.planInvestByggJaNei",
+      "ParentElement": "A3_RA0792_M.SkjemaData",
+      "TypeName": "planInvestByggJaNei",
+      "Name": "planInvestByggJaNei",
+      "DataBindingName": "SkjemaData.planInvestByggJaNei",
+      "XPath": "/A3_RA0792_M/SkjemaData/planInvestByggJaNei",
+      "Restrictions": {
+        "enumeration": {
+          "Value": "0;1"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 0,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "planInvestByggJaNei",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData/properties/planInvestByggJaNei",
+      "DisplayString": "A3_RA0792_M.SkjemaData.planInvestByggJaNei : [0..1] String"
+    },
+    "A3_RA0792_M.SkjemaData.planInvestByggSum": {
+      "ID": "A3_RA0792_M.SkjemaData.planInvestByggSum",
+      "ParentElement": "A3_RA0792_M.SkjemaData",
+      "TypeName": "planInvestByggSum",
+      "Name": "planInvestByggSum",
+      "DataBindingName": "SkjemaData.planInvestByggSum",
+      "XPath": "/A3_RA0792_M/SkjemaData/planInvestByggSum",
+      "Restrictions": {
+        "maximum": {
+          "Value": "99999999999"
+        },
+        "minimum": {
+          "Value": "0"
+        }
+      },
+      "Type": 0,
+      "XsdValueType": 16,
+      "Texts": {},
+      "CustomProperties": {},
+      "MaxOccurs": 1,
+      "MinOccurs": 0,
+      "XName": "planInvestByggSum",
+      "IsTagContent": false,
+      "FixedValue": null,
+      "IsReadOnly": false,
+      "XmlSchemaXPath": null,
+      "JsonSchemaPointer": "#/properties/SkjemaData/properties/planInvestByggSum",
+      "DisplayString": "A3_RA0792_M.SkjemaData.planInvestByggSum : [0..1] Integer"
+    }
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://altinn-repositories:3000/stian.vestli/ra0792-01/App/models/A3_RA-0792_M.schema.json",
+  "@xsdNamespaces": {
+    "xsd": "http://www.w3.org/2001/XMLSchema",
+    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "seres": "http://seres.no/xsd/forvaltningsdata"
+  },
+  "@xsdSchemaAttributes": {
+    "AttributeFormDefault": "Unqualified",
+    "ElementFormDefault": "Qualified",
+    "BlockDefault": "None",
+    "FinalDefault": "None"
+  },
+  "@xsdRootElement": "A3_RA0792_M",
+  "info": {
+    "rootNode": ""
+  },
+  "type": "object",
+  "$defs": {
+    "InternInfo": {
+      "type": "object",
+      "properties": {
+        "raNummer": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "skjemaVersjon": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "endepunktUrl": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "undersoekelsesNr": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "undersoekelsesInfoUrl": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "visOppgaveByrde": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "visBrukeropplevelse": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "delregNr": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "periodeFritekst": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "periodeFomDato": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "periodeTomDato": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "periodeType": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "periodeNummer": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "periodeAAr": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "periodeDato": {
+          "type": "string"
+        },
+        "enhetsIdent": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "enhetsType": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "enhetsOrgNr": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "enhetsNavn": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "enhetsGateadresse": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "enhetsPostnr": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "enhetsPoststed": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "enhetsAvdeling": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "reporteeOrgNr": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "parentId": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "childId": {
+          "type": "string",
+          "maxLength": 1000
+        }
+      }
+    },
+    "Tidsbruk": {
+      "type": "object",
+      "properties": {
+        "hjelpAvAndre": {
+          "type": "string",
+          "enum": [
+            "",
+            "0",
+            "1"
+          ]
+        },
+        "samletInfo": {
+          "type": "string",
+          "enum": [
+            "",
+            "0",
+            "1"
+          ]
+        },
+        "hjelpAvAndreMin": {
+          "type": "integer",
+          "maximum": 9999,
+          "minimum": 0
+        },
+        "samletInfoMin": {
+          "type": "integer",
+          "maximum": 9999,
+          "minimum": 0
+        },
+        "utfyllingMin": {
+          "type": "integer",
+          "maximum": 9999,
+          "minimum": 0
+        }
+      }
+    },
+    "Brukeropplevelse": {
+      "type": "object",
+      "properties": {
+        "enkeltKrevende": {
+          "type": "string",
+          "enum": [
+            "1",
+            "2",
+            "3",
+            ""
+          ]
+        },
+        "krevendeForh": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "forklarKrevendeForh": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "krevendeForhDLId": {
+          "type": "string",
+          "maxLength": 1000
+        }
+      }
+    },
+    "Kontakt": {
+      "type": "object",
+      "properties": {
+        "kontaktPersonNavn": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "kontaktPersonEpost": {
+          "type": "string",
+          "format": "email",
+          "maxLength": 200
+        },
+        "kontaktPersonTelefon": {
+          "type": "string",
+          "maxLength": 25,
+          "pattern": "^((00)?|(\\\u002B)?|()?)\\d{8,}$"
+        },
+        "kontaktInfoBekreftet": {
+          "type": "string",
+          "enum": [
+            "",
+            "0",
+            "1"
+          ]
+        },
+        "kontaktInfoKommentar": {
+          "type": "string",
+          "maxLength": 2000
+        }
+      }
+    },
+    "Hjelpefelter": {
+      "type": "object",
+      "properties": {
+        "hjelpefelt1": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "hjelpefelt2": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "hjelpefelt3": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "hjelpefelt4": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "hjelpefelt5": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "hjelpefelt6": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "hjelpefelt7": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "hjelpefelt8": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "hjelpefelt9": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "hjelpefelt10": {
+          "type": "string",
+          "maxLength": 100
+        }
+      }
+    },
+    "SkjemaTekster": {
+      "type": "object",
+      "properties": {
+        "skjemaNavnNB": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "skjemaNavnNN": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "skjemaNavnEN": {
+          "type": "string",
+          "maxLength": 200
+        }
+      }
+    },
+    "Naering": {
+      "type": "object",
+      "properties": {
+        "naeringskode": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "naeringKortBeskr": {
+          "type": "string",
+          "maxLength": 400
+        },
+        "naeringLangBeskr": {
+          "type": "string",
+          "maxLength": 4000
+        },
+        "naeringInfoBekreftet": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "naeringAlltidViktigste": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "naeringDatoEndring": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "naeringNyTekst": {
+          "type": "string",
+          "maxLength": 2000
+        }
+      }
+    },
+    "KlassInfo": {
+      "type": "object",
+      "properties": {
+        "KlassID": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "KlassDatamodellNode": {
+          "type": "string",
+          "maxLength": 1000
+        }
+      }
+    }
+  },
+  "properties": {
+    "dataFormatProvider": {
+      "@xsdType": "string",
+      "@xsdAttribute": true,
+      "type": "string",
+      "const": "ALTINNSTUDIO"
+    },
+    "dataFormatId": {
+      "@xsdType": "string",
+      "@xsdAttribute": true,
+      "type": "string",
+      "const": "A30792"
+    },
+    "dataFormatVersion": {
+      "@xsdType": "string",
+      "@xsdAttribute": true,
+      "type": "string",
+      "const": "1"
+    },
+    "InternInfo": {
+      "$ref": "#/$defs/InternInfo"
+    },
+    "Tidsbruk": {
+      "$ref": "#/$defs/Tidsbruk"
+    },
+    "Brukeropplevelse": {
+      "$ref": "#/$defs/Brukeropplevelse"
+    },
+    "Kontakt": {
+      "$ref": "#/$defs/Kontakt"
+    },
+    "Hjelpefelter": {
+      "$ref": "#/$defs/Hjelpefelter"
+    },
+    "KlassInfo": {
+      "type": "array",
+      "maxItems": 999,
+      "items": {
+        "$ref": "#/$defs/KlassInfo"
+      }
+    },
+    "SkjemaData": {
+      "type": "object",
+      "properties": {
+        "investMaskinerJaNei": {
+          "type": "string",
+          "enum": [
+            "0",
+            "1"
+          ]
+        },
+        "investMaskinerSum": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99999999999
+        },
+        "merverdiMaskinerRefJaNei": {
+          "type": "string",
+          "enum": [
+            "0",
+            "1"
+          ]
+        },
+        "merverdiMaskinerRefSum": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99999999999
+        },
+        "planInvestMaskinerJaNei": {
+          "type": "string",
+          "enum": [
+            "0",
+            "1"
+          ]
+        },
+        "planInvestMaskinerSum": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99999999999
+        },
+        "investBilerJaNei": {
+          "type": "string",
+          "enum": [
+            "0",
+            "1"
+          ]
+        },
+        "investBilerSum": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99999999999
+        },
+        "merverdiBilerRefJaNei": {
+          "type": "string",
+          "enum": [
+            "0",
+            "1"
+          ]
+        },
+        "merverdibilerRefSum": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99999999999
+        },
+        "planInvestBilerJaNei": {
+          "type": "string",
+          "enum": [
+            "0",
+            "1"
+          ]
+        },
+        "planInvestBilerSum": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99999999999
+        },
+        "investByggJaNei": {
+          "type": "string",
+          "enum": [
+            "0",
+            "1"
+          ]
+        },
+        "investByggSum": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99999999999
+        },
+        "merverdiByggRefJaNei": {
+          "type": "string",
+          "enum": [
+            "0",
+            "1"
+          ]
+        },
+        "merverdiByggRefSum": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99999999999
+        },
+        "planInvestByggJaNei": {
+          "type": "string",
+          "enum": [
+            "0",
+            "1"
+          ]
+        },
+        "planInvestByggSum": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99999999999
+        }
+      }
+    }
+  }
+}

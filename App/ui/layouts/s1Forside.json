@@ -1,0 +1,68 @@
+﻿{
+  "$schema": "https://altinncdn.no/schemas/json/layout/layout.schema.v1.json",
+  "data": {
+    "layout": [
+      {
+        "id": "Side1-Info1-f5a4b8d1-1203-4baa-a980-93153907a8cd",
+        "type": "Panel",
+        "hidden": ["or",
+                    ["equals",["dataModel","InternInfo.enhetsAvdeling"],null],
+                    ["equals",["dataModel","InternInfo.enhetsAvdeling"], " "]
+                  ],
+        "textResourceBindings": {
+          "body": "lang.s1.info.virksomhetsinfo",
+          "title": "lang.s1.tittel.virksomhetsinfo"
+        },
+        "showIcon": false,
+        "variant": "info",
+        "grid": {
+          "xs": 12
+        },
+        "dataModelBindings": {}
+      },
+      {
+        "id": "Side1-Info2-b2b9f267-7b44-43b9-880e-a85510e61350",
+        "type": "Panel",
+        "hidden": ["not",
+                    ["or",
+                      ["equals",["dataModel","InternInfo.enhetsAvdeling"],null],
+                      ["equals",["dataModel","InternInfo.enhetsAvdeling"], " "]
+                    ]
+                  ],
+        "textResourceBindings": {
+          "body": "lang.s1.info.virksomhetsinfoutenavdeling",
+          "title": "lang.s1.tittel.virksomhetsinfo"
+        },
+        "showIcon": false,
+        "variant": "info",
+        "grid": {
+          "xs": 12
+        },
+        "dataModelBindings": {}
+      },
+      {
+        "id": "Side1-Info3-765f2de6-67b4-4747-9c31-b9f0bec7674f",
+        "type": "Header",
+        "textResourceBindings": {
+          "title": "lang.s1.tittel.periodeinfo"
+        },
+        "dataModelBindings": {},
+        "size": "h2"
+      },
+      {
+        "id": "Side1-1ef90fe8-41c4-4559-87d1-75b258857e5a",
+        "type": "NavigationButtons",
+        "textResourceBindings": {
+          "next": "lang.tittel.navigationneste",
+          "back": "lang.tittel.navigationtilbake"
+        },
+        "dataModelBindings": {},
+        "showBackButton": true,
+        "triggers": [
+          "validatePage",
+          "calculatePageOrder"
+        ]
+      }
+    ]
+  }
+}

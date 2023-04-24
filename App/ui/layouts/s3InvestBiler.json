@@ -1,0 +1,150 @@
+﻿{
+  "$schema": "https://altinncdn.no/schemas/json/layout/layout.schema.v1.json",
+  "data": {
+    "layout": [
+      {
+        "id": "Header-ZXEbTJ",
+        "type": "Header",
+        "textResourceBindings": {
+          "title": "s3InvestBiler.Header-ZXEbTJ.title"
+        },
+        "dataModelBindings": {},
+        "size": "L"
+      },
+      {
+        "id": "RadioButtons-szDZyO",
+        "type": "RadioButtons",
+        "textResourceBindings": {
+          "title": "s3InvestBiler.RadioButtons-szDZyO.title"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "SkjemaData.investBilerJaNei"
+        },
+        "required": true,
+        "optionsId": "jaNeiOptionlist",
+        "grid": {
+          "md": 10
+        }
+      },
+      {
+        "id": "Input-9uXC40",
+        "type": "Input",
+        "textResourceBindings": {
+          "title": "s3InvestBiler.Input-9uXC40.title",
+          "description": "s3InvestBiler.Input-9uXC40.description"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "SkjemaData.investBilerSum"
+        },
+        "required": true,
+        "readOnly": false,
+        "formatting": {"number": {"allowNegative": false,"suffix": " 000 kr","thousandSeparator": " "}},
+        "grid": {
+          "md": 10,
+          "innerGrid": {
+            "md": 3
+          }
+        },
+        "hidden": ["notEquals",["component","RadioButtons-szDZyO"],"1"]
+      },
+      {
+        "id": "RadioButtons-9r4Qhm",
+        "type": "RadioButtons",
+        "textResourceBindings": {
+          "title": "s3InvestBiler.RadioButtons-9r4Qhm.title"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "SkjemaData.merverdiBilerRefJaNei"
+        },
+        "required": true,
+        "optionsId": "jaNeiOptionlist",
+        "grid": {
+          "md": 10
+        },
+        "hidden": ["notEquals",["component","RadioButtons-szDZyO"],"1"]
+      },
+      {
+        "id": "Input-0WQtZa",
+        "type": "Input",
+        "textResourceBindings": {
+          "title": "s3InvestBiler.Input-0WQtZa.title",
+          "description": "s3InvestBiler.Input-0WQtZa.description"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "SkjemaData.merverdibilerRefSum"
+        },
+        "required": true,
+        "readOnly": false,
+        "formatting": {"number": {"allowNegative": false,"suffix": " 000 kr","thousandSeparator": " "}},
+        "grid": {
+          "md": 10,
+          "innerGrid": {
+            "md": 3
+          }
+        },
+        "hidden": ["or",
+                    ["notEquals",["component","RadioButtons-szDZyO"],"1"],
+                    ["notEquals",["component","RadioButtons-9r4Qhm"],"1"]
+        ]
+      },
+      {
+        "id": "Header-ZiF6D5",
+        "type": "Header",
+        "textResourceBindings": {
+          "title": "s3InvestBiler.Header-ZiF6D5.title"
+        },
+        "dataModelBindings": {},
+        "size": "L"
+      },
+      {
+        "id": "RadioButtons-lcxSK6",
+        "type": "RadioButtons",
+        "textResourceBindings": {
+          "title": "s3InvestBiler.RadioButtons-lcxSK6.title"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "SkjemaData.planInvestBilerJaNei"
+        },
+        "required": true,
+        "optionsId": "jaNeiOptionlist",
+        "grid": {
+          "md": 10
+        }
+      },
+      {
+        "id": "Input-CxuabJ",
+        "type": "Input",
+        "textResourceBindings": {
+          "title": "s3InvestBiler.Input-CxuabJ.title",
+          "description": "s3InvestBiler.Input-CxuabJ.description"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "SkjemaData.planInvestBilerSum"
+        },
+        "required": true,
+        "readOnly": false,
+        "formatting": {"number": {"allowNegative": false,"suffix": " 000 kr","thousandSeparator": " "}},
+        "grid": {
+          "md": 10,
+          "innerGrid": {
+            "md": 3
+          }
+        },
+        "hidden": ["notEquals",["component","RadioButtons-lcxSK6"],"1"]
+      },
+      {
+        "id": "NavigationButtons-LMLs2s",
+        "type": "NavigationButtons",
+        "componentType": "NavigationButtons",
+        "textResourceBindings": {
+          "next": "lang.tittel.navigationneste",
+          "back": "lang.tittel.navigationtilbake"
+        },
+        "dataModelBindings": {},
+        "showBackButton": true,
+        "triggers": ["validatePage"]
+      }
+    ],
+    "hidden": false
+  }
+}

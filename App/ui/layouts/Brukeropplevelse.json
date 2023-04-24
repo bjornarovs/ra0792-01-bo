@@ -1,0 +1,96 @@
+﻿{
+  "$schema": "https://altinncdn.no/schemas/json/layout/layout.schema.v1.json",
+  "data": {
+    "layout": [
+      {
+        "id": "Heading2-2d1ba9d7-e284-4acd-a37b-e4c8ce45142a",
+        "type": "Header",
+        "size": "h2",
+        "textResourceBindings": {
+          "title": "Brukeropp-side-overskrift"
+        },
+        "dataModelBindings": {}
+      },
+      {
+        "id": "spm6-29d3286c-cc86-4fd4-a682-fc58d1020a43",
+        "type": "RadioButtons",
+        "textResourceBindings": {
+          "title": "Bruker-spm1"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "Brukeropplevelse.enkeltKrevende"
+        },
+        "optionsId": "BrukerValg",
+        "required": false,
+        "grid": {
+          "xs": 12,
+          "innerGrid": {
+            "xs": 12
+          }
+        },
+        "labelSettings": {
+          "optionalIndicator": false
+        }
+      },
+      {
+        "id": "gruppe2-18440a9b-1af4-4258-957f-4551bccbb3bb",
+        "type": "Group",
+        "hidden": ["or",["equals",["dataModel","Brukeropplevelse.enkeltKrevende"],"1"],
+                        ["equals",["dataModel","Brukeropplevelse.enkeltKrevende"],null]],
+        "children": [
+          "spm7-c6fc4f77-dd65-4ff9-8e44-ace8fce52db3",
+          "spm8-ad9afefc-6042-4fb9-b810-e85a35fe7ade"
+        ],
+        "maxCount": 0,
+        "dataModelBindings": {}
+      },
+     
+      {
+        "id": "spm7-c6fc4f77-dd65-4ff9-8e44-ace8fce52db3",
+        "type": "Checkboxes",
+        "textResourceBindings": {
+          "title": "Bruker-spm2",
+          "description": "Bruker-spm2-info"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "Brukeropplevelse.krevendeForh"
+        },
+        "options": [],
+        "required": false,
+        "optionsId": "GjennomforingValg",
+        "labelSettings": {
+          "optionalIndicator": false
+        }
+      },
+      {
+        "id": "spm8-ad9afefc-6042-4fb9-b810-e85a35fe7ade",
+        "type": "TextArea",
+        "textResourceBindings": {
+          "title": "Bruker-spm3"
+        },
+        "dataModelBindings": {
+          "simpleBinding": "Brukeropplevelse.forklarKrevendeForh"
+        },
+        "required": false,
+        "readOnly": false,
+        "labelSettings": {
+          "optionalIndicator": false
+        },
+        "grid": {
+          "xs": 9
+        }
+      },
+      {
+        "id": "knapp2-b94e963e-f120-4805-b5a3-d5d077edc38b",
+        "type": "NavigationButtons",
+        "componentType": "NavigationButtons",
+        "textResourceBindings": {
+          "next": "lang.tittel.navigationneste",
+          "back": "lang.tittel.navigationtilbake"
+        },
+        "dataModelBindings": {},
+        "showBackButton": true
+      }
+    ]
+  }
+}
